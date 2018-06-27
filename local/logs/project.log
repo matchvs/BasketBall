@@ -1,0 +1,64 @@
+2018-06-27T09:42:49.164Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-27T09:42:49.166Z - normal: checking language setting...
+2018-06-27T09:42:49.166Z - normal: Language: zh
+2018-06-27T09:42:49.716Z - success: protocol editor-framework registered
+2018-06-27T09:42:49.716Z - success: protocol app registered
+2018-06-27T09:42:49.716Z - success: protocol theme registered
+2018-06-27T09:42:49.716Z - success: protocol packages registered
+2018-06-27T09:42:49.716Z - success: protocol unpack registerred
+2018-06-27T09:42:49.716Z - success: protocol disable-commonjs registerred
+2018-06-27T09:42:49.938Z - normal: connected!
+2018-06-27T09:42:49.939Z - normal: Check project /Users/mac/basketball
+2018-06-27T09:42:49.939Z - normal: Initializing Cocos2d
+2018-06-27T09:42:50.099Z - normal: Initializing Asset Database
+2018-06-27T09:42:50.122Z - success: protocol uuid registerred
+2018-06-27T09:42:50.123Z - success: protocol db registerred
+2018-06-27T09:42:50.123Z - success: protocol thumbnail registerred
+2018-06-27T09:42:50.123Z - normal: Loading editor/builtin packages
+2018-06-27T09:42:50.146Z - success: anysdk loaded
+2018-06-27T09:42:50.228Z - success: assets loaded
+2018-06-27T09:42:50.230Z - success: builder loaded
+2018-06-27T09:42:50.232Z - success: cocos-analytics loaded
+2018-06-27T09:42:50.235Z - success: console loaded
+2018-06-27T09:42:50.239Z - success: hierarchy loaded
+2018-06-27T09:42:50.242Z - success: inspector loaded
+2018-06-27T09:42:50.243Z - success: keystore loaded
+2018-06-27T09:42:50.246Z - success: node-library loaded
+2018-06-27T09:42:50.247Z - success: package-asset loaded
+2018-06-27T09:42:50.248Z - success: preferences loaded
+2018-06-27T09:42:50.250Z - success: project-exporter loaded
+2018-06-27T09:42:50.262Z - success: project-importer loaded
+2018-06-27T09:42:50.264Z - success: project-settings loaded
+2018-06-27T09:42:50.267Z - success: ui-kit loaded
+2018-06-27T09:42:50.270Z - success: ui-grid loaded
+2018-06-27T09:42:50.273Z - success: scene loaded
+2018-06-27T09:42:50.274Z - success: sprite-editor loaded
+2018-06-27T09:42:50.285Z - success: store loaded
+2018-06-27T09:42:50.288Z - success: timeline loaded
+2018-06-27T09:42:50.289Z - normal: Loading builtin packages
+2018-06-27T09:42:50.292Z - success: asset-db-debugger loaded
+2018-06-27T09:42:50.292Z - success: color-picker loaded
+2018-06-27T09:42:50.295Z - success: package-manager loaded
+2018-06-27T09:42:50.299Z - success: sdkbox loaded
+2018-06-27T09:42:50.301Z - success: tester loaded
+2018-06-27T09:42:50.304Z - success: ui-kit-preview-extra loaded
+2018-06-27T09:42:50.307Z - success: ui-kit-preview loaded
+2018-06-27T09:42:50.310Z - success: ui-tree loaded
+2018-06-27T09:42:51.002Z - normal: Initializing project /Users/mac/basketball
+2018-06-27T09:42:51.006Z - normal: Loading packages
+2018-06-27T09:42:51.014Z - normal: Watching packages
+2018-06-27T09:42:51.021Z - normal: Run Application
+2018-06-27T09:42:51.871Z - success: preview server running at http://localhost:7457
+2018-06-27T09:42:55.774Z - normal: 1.8.2
+2018-06-27T09:42:59.679Z - warn: Error: ipc timeout. message: query-bezier-data, session: timeline@renderer:1003
+2018-06-27T09:43:00.620Z - failed: load script [matchvs.all] failed : Error: Cannot find module 'matchvs.all'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/basketball/temp/quick-scripts/assets/basic/Matchvs.js:1:348
+    at __define (/Users/mac/basketball/temp/quick-scripts/assets/basic/Matchvs.js:17:25)
+    at /Users/mac/basketball/temp/quick-scripts/assets/basic/Matchvs.js:37:13

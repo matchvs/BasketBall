@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b4acc047-28ba-4f08-b22d-f06b11cd36d9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "reddScore": {
+      "ver": "1.0.3",
+      "uuid": "ab80a102-179e-400f-9d39-69742ec7481a",
+      "rawTextureUuid": "b4acc047-28ba-4f08-b22d-f06b11cd36d9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 1,
+      "width": 326,
+      "height": 38,
+      "rawWidth": 330,
+      "rawHeight": 40,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
