@@ -21,17 +21,36 @@ cc.Class({
             default: null,
             type: cc.Label
         },
-
         scoreLb: {
             default: null,
             type: cc.Label
         }
     },
 
-    setData: function(playerId) {
-        this.nameLb.string = playerId;
-        var player = Game.PlayerManager.getPlayerByUserId(playerId);
+    setData: function(id) {
+        this.playerId = id;
+        this.nameLb.string = this.playerId;
+        var player = Game.PlayerManager.getPlayerByUserId(this.playerId);
         this.scoreLb.string = player.score;
-    }
+
+        clientEvent.on(clientEvent.eventType.playerAccountGet, this.userInfoSet, this);
+        Game.GameManager.userInfoReq(this.playerId);
+    },
+
+    userInfoSet: function(recvMsg) {
+        this.nameLb.string = recvMsg.userName;
+        if (recvMsg.account == this.playerId) {
+            if (recvMsg.headIcon && recvMsg.headIcon.indexOf("http") >= 0) {
+                cc.loader.load({url: recvMsg.headIcon, type: 'png'}, function(err, texture) {
+                    var spriteFrame = new cc.SpriteFrame(texture, cc.Rect(0, 0, texture.width, texture.height));
+                    this.icon.spriteFrame = spriteFrame;
+                }.bind(this));
+            }
+        }
+    },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.playerAccountGet, this.userInfoSet, this);
+    },
 
 });

@@ -1,64 +1,442 @@
-2018-06-27T09:42:49.164Z - normal: Load ~/.CocosCreator/settings.json
-2018-06-27T09:42:49.166Z - normal: checking language setting...
-2018-06-27T09:42:49.166Z - normal: Language: zh
-2018-06-27T09:42:49.716Z - success: protocol editor-framework registered
-2018-06-27T09:42:49.716Z - success: protocol app registered
-2018-06-27T09:42:49.716Z - success: protocol theme registered
-2018-06-27T09:42:49.716Z - success: protocol packages registered
-2018-06-27T09:42:49.716Z - success: protocol unpack registerred
-2018-06-27T09:42:49.716Z - success: protocol disable-commonjs registerred
-2018-06-27T09:42:49.938Z - normal: connected!
-2018-06-27T09:42:49.939Z - normal: Check project /Users/mac/basketball
-2018-06-27T09:42:49.939Z - normal: Initializing Cocos2d
-2018-06-27T09:42:50.099Z - normal: Initializing Asset Database
-2018-06-27T09:42:50.122Z - success: protocol uuid registerred
-2018-06-27T09:42:50.123Z - success: protocol db registerred
-2018-06-27T09:42:50.123Z - success: protocol thumbnail registerred
-2018-06-27T09:42:50.123Z - normal: Loading editor/builtin packages
-2018-06-27T09:42:50.146Z - success: anysdk loaded
-2018-06-27T09:42:50.228Z - success: assets loaded
-2018-06-27T09:42:50.230Z - success: builder loaded
-2018-06-27T09:42:50.232Z - success: cocos-analytics loaded
-2018-06-27T09:42:50.235Z - success: console loaded
-2018-06-27T09:42:50.239Z - success: hierarchy loaded
-2018-06-27T09:42:50.242Z - success: inspector loaded
-2018-06-27T09:42:50.243Z - success: keystore loaded
-2018-06-27T09:42:50.246Z - success: node-library loaded
-2018-06-27T09:42:50.247Z - success: package-asset loaded
-2018-06-27T09:42:50.248Z - success: preferences loaded
-2018-06-27T09:42:50.250Z - success: project-exporter loaded
-2018-06-27T09:42:50.262Z - success: project-importer loaded
-2018-06-27T09:42:50.264Z - success: project-settings loaded
-2018-06-27T09:42:50.267Z - success: ui-kit loaded
-2018-06-27T09:42:50.270Z - success: ui-grid loaded
-2018-06-27T09:42:50.273Z - success: scene loaded
-2018-06-27T09:42:50.274Z - success: sprite-editor loaded
-2018-06-27T09:42:50.285Z - success: store loaded
-2018-06-27T09:42:50.288Z - success: timeline loaded
-2018-06-27T09:42:50.289Z - normal: Loading builtin packages
-2018-06-27T09:42:50.292Z - success: asset-db-debugger loaded
-2018-06-27T09:42:50.292Z - success: color-picker loaded
-2018-06-27T09:42:50.295Z - success: package-manager loaded
-2018-06-27T09:42:50.299Z - success: sdkbox loaded
-2018-06-27T09:42:50.301Z - success: tester loaded
-2018-06-27T09:42:50.304Z - success: ui-kit-preview-extra loaded
-2018-06-27T09:42:50.307Z - success: ui-kit-preview loaded
-2018-06-27T09:42:50.310Z - success: ui-tree loaded
-2018-06-27T09:42:51.002Z - normal: Initializing project /Users/mac/basketball
-2018-06-27T09:42:51.006Z - normal: Loading packages
-2018-06-27T09:42:51.014Z - normal: Watching packages
-2018-06-27T09:42:51.021Z - normal: Run Application
-2018-06-27T09:42:51.871Z - success: preview server running at http://localhost:7457
-2018-06-27T09:42:55.774Z - normal: 1.8.2
-2018-06-27T09:42:59.679Z - warn: Error: ipc timeout. message: query-bezier-data, session: timeline@renderer:1003
-2018-06-27T09:43:00.620Z - failed: load script [matchvs.all] failed : Error: Cannot find module 'matchvs.all'
-    at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
-    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
-    at Function.Module._load (module.js:418:25)
-    at Module.require (module.js:498:17)
-    at require (internal/module.js:20:19)
-    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
-    at /Users/mac/basketball/temp/quick-scripts/assets/basic/Matchvs.js:1:348
-    at __define (/Users/mac/basketball/temp/quick-scripts/assets/basic/Matchvs.js:17:25)
-    at /Users/mac/basketball/temp/quick-scripts/assets/basic/Matchvs.js:37:13
+2018-06-27T12:11:44.160Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-27T12:11:44.164Z - normal: checking language setting...
+2018-06-27T12:11:44.164Z - normal: Language: zh
+2018-06-27T12:11:45.023Z - success: protocol editor-framework registered
+2018-06-27T12:11:45.023Z - success: protocol app registered
+2018-06-27T12:11:45.023Z - success: protocol theme registered
+2018-06-27T12:11:45.024Z - success: protocol packages registered
+2018-06-27T12:11:45.024Z - success: protocol unpack registerred
+2018-06-27T12:11:45.024Z - success: protocol disable-commonjs registerred
+2018-06-27T12:11:45.187Z - normal: connected!
+2018-06-27T12:11:45.189Z - normal: Check project /Users/mac/MatchVsGames/basketball
+2018-06-27T12:11:45.191Z - normal: Initializing Cocos2d
+2018-06-27T12:11:45.410Z - normal: Initializing Asset Database
+2018-06-27T12:11:45.441Z - success: protocol uuid registerred
+2018-06-27T12:11:45.442Z - success: protocol db registerred
+2018-06-27T12:11:45.442Z - success: protocol thumbnail registerred
+2018-06-27T12:11:45.442Z - normal: Loading editor/builtin packages
+2018-06-27T12:11:45.460Z - success: anysdk loaded
+2018-06-27T12:11:45.576Z - success: assets loaded
+2018-06-27T12:11:45.581Z - success: builder loaded
+2018-06-27T12:11:45.583Z - success: cocos-analytics loaded
+2018-06-27T12:11:45.587Z - success: console loaded
+2018-06-27T12:11:45.621Z - success: fb-instant-games loaded
+2018-06-27T12:11:45.625Z - success: hierarchy loaded
+2018-06-27T12:11:45.631Z - success: inspector loaded
+2018-06-27T12:11:45.632Z - success: keystore loaded
+2018-06-27T12:11:45.637Z - success: node-library loaded
+2018-06-27T12:11:45.638Z - success: package-asset loaded
+2018-06-27T12:11:45.640Z - success: preferences loaded
+2018-06-27T12:11:45.643Z - success: project-exporter loaded
+2018-06-27T12:11:45.658Z - success: project-importer loaded
+2018-06-27T12:11:45.662Z - success: project-settings loaded
+2018-06-27T12:11:45.668Z - success: ui-kit loaded
+2018-06-27T12:11:45.673Z - success: ui-grid loaded
+2018-06-27T12:11:45.677Z - success: scene loaded
+2018-06-27T12:11:45.678Z - success: sprite-editor loaded
+2018-06-27T12:11:45.682Z - success: store loaded
+2018-06-27T12:11:45.688Z - success: timeline loaded
+2018-06-27T12:11:45.689Z - normal: Loading builtin packages
+2018-06-27T12:11:45.693Z - success: asset-db-debugger loaded
+2018-06-27T12:11:45.694Z - success: color-picker loaded
+2018-06-27T12:11:45.698Z - success: package-manager loaded
+2018-06-27T12:11:45.700Z - success: qqplay-adapter loaded
+2018-06-27T12:11:45.706Z - success: sdkbox loaded
+2018-06-27T12:11:45.713Z - success: tester loaded
+2018-06-27T12:11:45.718Z - success: ui-kit-preview-extra loaded
+2018-06-27T12:11:45.722Z - success: ui-kit-preview loaded
+2018-06-27T12:11:45.726Z - success: ui-tree loaded
+2018-06-27T12:11:45.727Z - success: weapp-adapter loaded
+2018-06-27T12:11:46.730Z - normal: Initializing project /Users/mac/MatchVsGames/basketball
+2018-06-27T12:11:46.733Z - normal: Loading packages
+2018-06-27T12:11:46.746Z - success: plugin-matchvs loaded
+2018-06-27T12:11:46.746Z - normal: Watching packages
+2018-06-27T12:11:46.876Z - normal: Run Application
+2018-06-27T12:12:01.912Z - success: preview server running at http://localhost:7458
+2018-06-27T12:12:10.541Z - normal: 1.9.2
+2018-06-27T12:14:09.182Z - error: Error: EACCES: permission denied, open '/Users/mac/MatchVsGames/basketball/assets/resources/audio/gameover.mp3'
+2018-06-27T12:14:09.184Z - error: Error: EACCES: permission denied, open '/Users/mac/MatchVsGames/basketball/assets/resources/audio/readygo.mp3'
+2018-06-27T12:14:46.430Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-27T12:16:40.798Z - warn: The Asset used by component "cc.Sprite" in prefab "boomRed.prefab" is missing. Detailed information:
+Node path: "boomRed"
+Asset url: "db://assets/game/prefab/boomRed.prefab"
+Missing uuid: "5e3cf5e3-28b2-4c89-bcfd-eb9d005fc631"
+
+2018-06-27T12:16:40.801Z - warn: The Asset used by component "cc.Sprite" in prefab "bigBullet.prefab" is missing. Detailed information:
+Node path: "bullet"
+Asset url: "db://assets/game/prefab/bigBullet.prefab"
+Missing uuid: "fa19699e-e8f1-42c5-a7bb-061870e068de"
+
+2018-06-27T12:16:44.177Z - warn: The Asset used by component "cc.Sprite" in prefab "boomPurple.prefab" is missing. Detailed information:
+Node path: "boomPurple"
+Asset url: "db://assets/game/prefab/boomPurple.prefab"
+Missing uuid: "0db9da25-f32f-4e8a-8937-f0b4304b8952"
+
+2018-06-27T12:17:52.168Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-27T12:18:02.043Z - warn: Script attached to "uiVsResultVer" in prefab "uiVsResultVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiVsResultVer"
+Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
+Script UUID: "8617ae07-aaa7-4a37-bb74-028e36621282"
+Class ID: "8617a4HqqdKN7t0Ao42YhKC"
+
+2018-06-27T12:18:02.131Z - warn: The Asset used by component "cc.Sprite" in prefab "uiVsResultVer.prefab" is missing. Detailed information:
+Node path: "uiVsResultVer/sr-con-bg"
+Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
+Missing uuid: "b1212c8a-abee-403f-a510-ef0da39e82f2"
+
+2018-06-27T12:18:03.714Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.714Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.715Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.716Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.716Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.716Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.717Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.718Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.718Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.718Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.718Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.719Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.719Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.720Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.721Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.721Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.722Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.722Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.723Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.723Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.724Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.724Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.725Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.725Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.725Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.726Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.726Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.727Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.727Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.728Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.728Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.728Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.729Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.729Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.729Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.730Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.730Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.731Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:03.731Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.577Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.579Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.579Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.580Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.580Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.580Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.581Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.581Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.582Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.582Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.583Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.583Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.583Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.584Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.584Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.584Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.585Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.585Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.586Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.586Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.587Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.589Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.591Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.591Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.592Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.592Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.592Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.592Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.592Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.593Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.593Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.593Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.593Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.594Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.594Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.594Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.594Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.594Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:05.594Z - warn: The Asset used in prefab "uirankPanel.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/ui/uirankPanel.prefab"
+Missing uuid: "2cda8ebc-8b67-4b66-9123-f88bb3793d4a"
+
+2018-06-27T12:18:21.138Z - warn: Script attached to "uiVsResultVer" in prefab "uiVsResultVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiVsResultVer"
+Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
+Script UUID: "8617ae07-aaa7-4a37-bb74-028e36621282"
+Class ID: "8617a4HqqdKN7t0Ao42YhKC"
+
+2018-06-27T12:18:21.219Z - warn: The Asset used by component "cc.Sprite" in prefab "uiVsResultVer.prefab" is missing. Detailed information:
+Node path: "uiVsResultVer/sr-con-bg"
+Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
+Missing uuid: "b1212c8a-abee-403f-a510-ef0da39e82f2"
+
+2018-06-27T12:18:23.321Z - warn: Script attached to "uiVsResultVer" in prefab "uiVsResultVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiVsResultVer"
+Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
+Script UUID: "8617ae07-aaa7-4a37-bb74-028e36621282"
+Class ID: "8617a4HqqdKN7t0Ao42YhKC"
+
+2018-06-27T12:18:23.415Z - warn: The Asset used by component "cc.Sprite" in prefab "uiVsResultVer.prefab" is missing. Detailed information:
+Node path: "uiVsResultVer/sr-con-bg"
+Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
+Missing uuid: "b1212c8a-abee-403f-a510-ef0da39e82f2"
+
+2018-06-27T12:18:26.525Z - warn: Script attached to "uiVsResultVer" in prefab "uiVsResultVer.prefab" is missing or invalid. Detailed information:
+Node path: "uiVsResultVer"
+Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
+Script UUID: "8617ae07-aaa7-4a37-bb74-028e36621282"
+Class ID: "8617a4HqqdKN7t0Ao42YhKC"
+
+2018-06-27T12:18:26.636Z - warn: The Asset used by component "cc.Sprite" in prefab "uiVsResultVer.prefab" is missing. Detailed information:
+Node path: "uiVsResultVer/sr-con-bg"
+Asset url: "db://assets/resources/ui/uiVsResultVer.prefab"
+Missing uuid: "b1212c8a-abee-403f-a510-ef0da39e82f2"
+
+2018-06-27T12:23:37.303Z - warn: The Asset used by component "cc.Animation" in prefab "uiGamePanel.prefab" is missing. Detailed information:
+Node path: "uiGamePanel/BG/key_clock"
+Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
+Missing uuid: "1b98f0e2-2faf-4d8b-9e2e-9c7518905fdc"
+
+2018-06-27T12:23:37.328Z - warn: The Asset used by component "cc.Animation" in prefab "uiGamePanel.prefab" is missing. Detailed information:
+Node path: "uiGamePanel/key_readyGo"
+Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
+Missing uuid: "be6dd182-ab93-4f6f-b052-3fcad8947d8a"
+
+2018-06-27T12:23:37.390Z - normal: ScaleX != ScaleY. Don't know which one to return
