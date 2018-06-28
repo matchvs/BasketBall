@@ -1,6 +1,4 @@
 var mvs = require("Matchvs");
-var GLB = require("Glb");
-
 cc.Class({
     extends: cc.Component,
     onLoad() {
@@ -17,26 +15,26 @@ cc.Class({
         this.network.chooseNetworkMode();
         this.getRankDataListener();
         this.findPlayerByAccountListener();
-/*
-            wx.login({
-                success: function() {
-                    wx.getUserInfo({
-                        fail: function(res) {
-                            // iOS 和 Android 对于拒绝授权的回调 errMsg 没有统一，需要做一下兼容处理
-                            if (res.errMsg.indexOf('auth deny') > -1 || res.errMsg.indexOf('auth denied') > -1) {
-                                // 处理用户拒绝授权的情况
-                            }
-                        },
-                        success: function(res) {
-                            Game.GameManager.nickName = res.userInfo.nickName;
-                            Game.GameManager.avatarUrl = res.userInfo.avatarUrl;
-                            console.log('success', Game.GameManager.nickName);
+        /*
+                    wx.login({
+                        success: function() {
+                            wx.getUserInfo({
+                                fail: function(res) {
+                                    // iOS 和 Android 对于拒绝授权的回调 errMsg 没有统一，需要做一下兼容处理
+                                    if (res.errMsg.indexOf('auth deny') > -1 || res.errMsg.indexOf('auth denied') > -1) {
+                                        // 处理用户拒绝授权的情况
+                                    }
+                                },
+                                success: function(res) {
+                                    Game.GameManager.nickName = res.userInfo.nickName;
+                                    Game.GameManager.avatarUrl = res.userInfo.avatarUrl;
+                                    console.log('success', Game.GameManager.nickName);
+                                }
+                            });
                         }
-                    });
+                    })
                 }
-            })
-        }
-        */
+                */
     },
 
     leaveRoom: function(data) {
@@ -94,7 +92,6 @@ cc.Class({
         cc.director.loadScene('game', function() {
             uiFunc.openUI("uiGamePanel", function() {
                 this.sendReadyMsg();
-                Game.PlayerManager.initPlayers();
             }.bind(this));
         }.bind(this));
 
@@ -324,61 +321,21 @@ cc.Class({
 
     // 玩家行为通知--
     sendEventNotify: function(info) {
+        console.log(info);
         var cpProto = JSON.parse(info.cpProto);
-
         if (info.cpProto.indexOf(GLB.GAME_START_EVENT) >= 0) {
-            GLB.playerUserIds = [GLB.userInfo.id]
-            this.scores = [];
-            var self = this;
+            GLB.playerUserIds = [GLB.userInfo.id];
             var remoteUserIds = JSON.parse(info.cpProto).userIds;
             remoteUserIds.forEach(function(id) {
                 if (GLB.userInfo.id !== id) {
-                    GLB.playerUserIds.push(id)
+                    GLB.playerUserIds.push(id);
                 }
-                var score = {
-                    playerId: id,
-                    score: 0
-                }
-                self.scores.push(score);
             });
             this.startGame();
         }
 
-        var player = null;
-        if (info.cpProto.indexOf(GLB.PLAYER_FIRE_EVENT) >= 0) {
-            player = Game.PlayerManager.getPlayerByUserId(info.srcUserId);
-            if (player) {
-                var worldPos = player.node.convertToWorldSpaceAR(cc.v2(0, 177));
-                var bulletPoint = player.node.parent.parent.convertToNodeSpaceAR(worldPos);
-                if (cpProto.bulletType === BulletType.Normal) {
-                    Game.BulletManager.spawnSmallBullet(player.node, bulletPoint);
-                } else if (cpProto.bulletType === BulletType.Special) {
-                    Game.BulletManager.spawnBigBullet(player.node, bulletPoint);
-                }
-            }
-        }
-
-        if (info.cpProto.indexOf(GLB.GAME_TIME) >= 0) {
-            this.gameTime = parseInt(cpProto.time);
-            if (cpProto.time < 0) {
-                cpProto.time = 0;
-            }
-            clientEvent.dispatch(clientEvent.eventType.time, cpProto.time);
-        }
-
-        if (info.cpProto.indexOf(GLB.SCORE_EVENT) >= 0) {
-            player = Game.PlayerManager.getPlayerByUserId(info.srcUserId);
-            if (player) {
-                player.addScore(cpProto.score);
-            }
-            if (info.srcUserId === GLB.userInfo.id) {
-                this.coin += cpProto.score / 5;
-                clientEvent.dispatch(clientEvent.eventType.updateCoin);
-            }
-        }
-
         if (info.cpProto.indexOf(GLB.GAME_OVER_EVENT) >= 0) {
-            clientEvent.dispatch(clientEvent.eventType.gameOver);
+            this.gameOver();
         }
 
         if (info.cpProto.indexOf(GLB.READY) >= 0) {
@@ -391,10 +348,15 @@ cc.Class({
         if (info.cpProto.indexOf(GLB.ROUND_START) >= 0) {
             setTimeout(function() {
                 Game.GameManager.gameState = GameState.Play;
-                this.gameTime = Game.GameSeconds;
-                this.timeUpdate();
-            }.bind(this), 7000);
+            }.bind(this), 2000);
             clientEvent.dispatch(clientEvent.eventType.roundStart);
+
+            if (GLB.syncFrame === true && GLB.isRoomOwner === true) {
+                var result = mvs.engine.setFrameSync(GLB.FRAME_RATE);
+                if (result !== 0) {
+                    console.log('设置帧同步率失败,错误码:' + result);
+                }
+            }
         }
     },
 
@@ -410,16 +372,38 @@ cc.Class({
 
     frameUpdate: function(rsp) {
         for (var i = 0; i < rsp.frameItems.length; i++) {
+            if (Game.GameManager.gameState === GameState.Over) {
+                return;
+            }
             var info = rsp.frameItems[i];
-            if (info && info.cpProto && info.srcUserId !== GLB.userInfo.id) {
-                if (info.cpProto.indexOf(GLB.PLAYER_ROTATION_EVENT) >= 0) {
-                    var cpProto = JSON.parse(info.cpProto);
-                    if (Game.PlayerManager) {
-                        var player = Game.PlayerManager.getPlayerByUserId(info.srcUserID);
-                        player.setRotation(cpProto.rotation);
-                    }
+            var cpProto = JSON.parse(info.cpProto);
+            if (info.cpProto.indexOf(GLB.DIRECTION) >= 0) {
+                if (GLB.userInfo.id === info.srcUserID) {
+                    Game.PlayerManager.self.setDirect(cpProto.direction);
+                } else {
+                    Game.PlayerManager.rival.setDirect(cpProto.direction);
                 }
             }
+            if (info.cpProto.indexOf(GLB.FIRE) >= 0) {
+                if (GLB.userInfo.id === info.srcUserID) {
+                    Game.PlayerManager.self.fireNotify();
+                } else {
+                    Game.PlayerManager.rival.fireNotify();
+                }
+            }
+
+            if (info.cpProto.indexOf(GLB.HIT_EVENT) >= 0) {
+                if (GLB.userInfo.id === cpProto.playerId) {
+                    Game.PlayerManager.self.hitEvent();
+                } else {
+                    Game.PlayerManager.rival.hitEvent();
+                }
+                // 得分--
+            }
+        }
+        if(Game.PlayerManager) {
+            Game.PlayerManager.self.move();
+            Game.PlayerManager.rival.move();
         }
     },
 

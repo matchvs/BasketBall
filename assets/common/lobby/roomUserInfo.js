@@ -1,5 +1,4 @@
 var mvs = require("Matchvs");
-var GLB = require("Glb");
 cc.Class({
     extends: cc.Component,
 

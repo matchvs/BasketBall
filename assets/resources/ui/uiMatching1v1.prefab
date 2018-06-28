@@ -321,7 +321,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "home-btn5",
+    "_name": "key_quit",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1

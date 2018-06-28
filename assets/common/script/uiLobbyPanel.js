@@ -1,6 +1,5 @@
 var uiPanel = require("uiPanel");
 var mvs = require("Matchvs");
-var GLB = require("Glb");
 cc.Class({
     extends: uiPanel,
 
@@ -70,7 +69,7 @@ cc.Class({
 
     onEnable() {
         GLB.isRoomOwner = false;
-        GLB.MAX_PLAYER_COUNT = 3;
+        GLB.MAX_PLAYER_COUNT = 2;
     },
 
     randomRoom: function() {

@@ -1,48 +1,53 @@
 var mvs = require("Matchvs");
-var GLB = require("Glb");
 cc.Class({
     extends: cc.Component,
     properties: {
-        label: cc.Label
+        speed: 0,
+        firePoint: cc.Node,
+        fireAnimation: cc.Animation,
+        hitAnimation: cc.Animation
     },
     init: function(userId) {
+        this.direction = DirectState.None;
         this.playerId = userId;
-        this.score = 0;
-        if (GLB.userInfo.id === this.playerId) {
-            var self = this;
-            this.rotateID = setInterval(() => {
-                if (Game.GameManager.gameState === GameState.Over) {
-                    clearInterval(this.rotateID);
-                } else {
-                    if(Game.GameManager.gameState === GameState.Play) {
-                        mvs.engine.sendFrameEvent(JSON.stringify({
-                            action: GLB.PLAYER_ROTATION_EVENT,
-                            rotation: self.node.rotation
-                        }));
-                    }
-                }
-            }, 200);
+        this.targetPosX = this.node.x;
+    },
+
+    firePreAnim: function() {
+        this.fireAnimation.play();
+    },
+
+    fireNotify: function() {
+        console.log("fire");
+    },
+
+    move() {
+        var dir = this.direction === DirectState.None ? 0 :
+            this.direction === DirectState.Left ? -1 : 1;
+        var deltaX = (1 / GLB.FRAME_RATE) * this.speed * dir;
+        this.targetPosX += deltaX;
+        if (this.targetPosX < -GLB.limitX) {
+            this.targetPosX = -GLB.limitX;
+        }
+        if (this.targetPosX > GLB.limitX) {
+            this.targetPosX = GLB.limitX;
         }
     },
 
-    start: function() {
-        this.targetRotation = this.node.rotation;
+    setDirect(dir) {
+        this.direction = dir;
     },
 
-    setRotation(rotation) {
-        this.targetRotation = rotation;
-    },
-
-    addScore(score) {
-        this.score += score;
-        this.label.string = this.score;
+    hitEvent() {
+        this.hitAnimation.play();
     },
 
     update(dt) {
-        if (GLB.userInfo.id !== this.playerId) {
-            this.node.rotation = cc.lerp(this.node.rotation, this.targetRotation, 10 * dt);
+        if(this.targetPosX) {
+            this.node.x = cc.lerp(this.node.x, this.targetPosX, 4 * dt);
         }
     },
+
 
     onDestroy() {
         clearInterval(this.rotateID);
