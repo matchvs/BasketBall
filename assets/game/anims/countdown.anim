@@ -1,0 +1,83 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "countdown",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "0",
+  "curveData": {
+    "paths": {
+      "key_timeLb": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.25,
+              "value": 1.3,
+              "curve": [
+                0.2,
+                0.7,
+                0.3,
+                0.81
+              ]
+            },
+            {
+              "frame": 0.2833333333333333,
+              "value": 1.1072923615600154
+            },
+            {
+              "frame": 0.7166666666666667,
+              "value": 0.32044930986414644
+            },
+            {
+              "frame": 0.9833333333333333,
+              "value": 0.2
+            },
+            {
+              "frame": 1,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.25,
+              "value": 1.3,
+              "curve": [
+                0.2,
+                0.7,
+                0.3,
+                0.8
+              ]
+            },
+            {
+              "frame": 0.2833333333333333,
+              "value": 1.108396417395026
+            },
+            {
+              "frame": 0.7166666666666667,
+              "value": 0.32466833463552003
+            },
+            {
+              "frame": 0.9833333333333333,
+              "value": 0.2
+            },
+            {
+              "frame": 1,
+              "value": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -71,3 +71,380 @@
 2018-06-28T09:38:42.408Z - normal: ScaleX != ScaleY. Don't know which one to return
 2018-06-28T09:49:25.329Z - normal: ScaleX != ScaleY. Don't know which one to return
 2018-06-28T09:51:29.014Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T08:04:59.921Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T08:22:46.313Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T08:33:47.929Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T08:44:25.104Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T08:45:03.059Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T08:52:49.920Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T11:41:13.469Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T11:43:37.465Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T11:47:01.133Z - normal: Introduced global variable while editing: i
+2018-06-29T11:47:01.136Z - normal: Introduced global variable while editing: l
+2018-06-29T12:24:54.501Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:590220
+2018-06-29T12:33:07.469Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T12:33:46.519Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:599135
+2018-06-29T12:39:54.852Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:604972
+2018-06-29T12:39:54.864Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:604974
+2018-06-29T12:41:13.481Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:606214
+2018-06-29T13:08:14.409Z - normal: Introduced global variable while editing: i
+2018-06-29T13:08:14.411Z - normal: Introduced global variable while editing: l
+2018-06-29T13:08:21.983Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T13:09:16.774Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T13:16:59.834Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T13:56:09.818Z - normal: Introduced global variable while editing: i
+2018-06-29T13:56:09.821Z - normal: Introduced global variable while editing: l
+2018-06-29T13:56:15.007Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T14:11:27.451Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T14:33:25.190Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGames/basketball/assets/common/script/basic/Globals.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGames/basketball/assets/common/script/basic/Globals.js: Unexpected token, expected , (34:4)
+  32 |     PLAYER_COUNTS: [2]
+  33 | 
+> 34 |     GAME_START_EVENT: "gameStart",
+     |     ^
+  35 |     GAME_OVER_EVENT: "gameOver",
+  36 |     READY: "ready",
+  37 |     ROUND_START: "roundStar",
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp.expect (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
+    at Parser.pp$3.parseObj (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+2018-06-29T14:33:36.091Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T14:33:58.228Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-29T14:34:57.140Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T01:14:35.116Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T01:17:27.616Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T01:17:28.460Z - error: "getComponent" is not defined in the Scene, it is only defined in normal nodes.
+    at cc_Scene.get (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/deprecated.js:669:20)
+    at HTMLElement.scene:query-animation-list (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14976)
+    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2283)
+    at EventEmitter.ipcRenderer.on.o (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4054)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-30T01:17:28.478Z - error: "getComponent" is not defined in the Scene, it is only defined in normal nodes.
+    at cc_Scene.get (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/deprecated.js:669:20)
+    at HTMLElement.scene:query-animation-list (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14976)
+    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2283)
+    at EventEmitter.ipcRenderer.on.o (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4054)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-30T01:17:29.761Z - error: "active" is not defined in the Scene, it is only defined in normal nodes.
+    at cc_Scene.get (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/deprecated.js:654:20)
+    at dumpNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/dump/get-node-dump.js:1:5340)
+    at Object.Editor.getNodeDump (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/dump/get-node-dump.js:1:6880)
+    at Object.dumpNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:17640)
+    at HTMLElement.scene:query-node (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:6738)
+    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2283)
+    at EventEmitter.ipcRenderer.on.o (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4054)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-30T01:19:05.933Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T01:22:58.451Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T01:30:22.030Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T01:34:38.878Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:804470
+2018-06-30T01:42:48.555Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:812420
+2018-06-30T01:45:18.313Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T01:47:09.554Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T01:47:56.672Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:816708
+2018-06-30T01:47:56.685Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:816710
+2018-06-30T01:49:26.269Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGames/basketball/assets/game/script/player.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGames/basketball/assets/game/script/player.js: Unexpected token (89:4)
+  87 |         }
+  88 |         this.basket.x =  
+> 89 |     },
+     |     ^
+  90 | 
+  91 | 
+  92 |     onDestroy() {
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3367:23)
+    at Parser.pp$3.parseExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3306:19)
+2018-06-30T01:49:52.780Z - normal: Introduced global variable while editing: i
+2018-06-30T01:49:52.780Z - normal: Introduced global variable while editing: l
+2018-06-30T01:50:10.062Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T01:50:15.809Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T01:53:11.972Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T02:13:50.692Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T02:16:59.944Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T02:19:12.172Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T02:19:47.185Z - normal: Introduced global variable while editing: i
+2018-06-30T02:19:47.189Z - normal: Introduced global variable while editing: l
+2018-06-30T02:19:48.602Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T02:23:19.504Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T02:26:00.702Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T02:28:07.885Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T02:28:58.252Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T02:34:39.007Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:864910
+2018-06-30T02:40:45.443Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T02:41:31.712Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T02:43:18.947Z - normal: Introduced global variable while editing: i
+2018-06-30T02:43:18.949Z - normal: Introduced global variable while editing: l
+2018-06-30T02:44:23.698Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T03:06:18.168Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T03:11:02.183Z - normal: Introduced global variable while editing: i
+2018-06-30T03:11:02.186Z - normal: Introduced global variable while editing: l
+2018-06-30T03:15:24.961Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T03:16:56.321Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T03:19:57.895Z - normal: Introduced global variable while editing: i
+2018-06-30T03:19:57.901Z - normal: Introduced global variable while editing: l
+2018-06-30T03:20:00.003Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T03:40:41.531Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGames/basketball/assets/common/script/basic/gameManager.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGames/basketball/assets/common/script/basic/gameManager.js: Unexpected token (426:8)
+  424 | 
+  425 |             if(Game.PlayerManager.self)
+> 426 |         }
+      |         ^
+  427 |     },
+  428 | 
+  429 |     timeUpdate: function() {
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+    at Parser.pp$3.parseExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3306:19)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1906:19)
+2018-06-30T03:40:44.073Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T03:49:20.166Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T03:51:29.617Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T03:54:03.016Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T03:58:30.685Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T04:01:53.610Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T04:01:53.659Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T04:02:34.749Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T04:02:34.796Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T04:06:05.513Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T04:07:57.683Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T04:09:13.290Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T04:09:13.364Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T04:56:06.430Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T05:02:45.878Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T05:03:59.498Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:1:359
+    at __define (/Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:9:11)
+    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:81:13
+2018-06-30T05:04:00.149Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T05:07:41.700Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:1:359
+    at __define (/Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:9:11)
+    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:81:13
+2018-06-30T05:07:42.122Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T05:09:11.213Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:1:359
+    at __define (/Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:9:11)
+    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:81:13
+2018-06-30T05:09:11.515Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T05:46:17.779Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:1:359
+    at __define (/Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:9:11)
+    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:81:13
+2018-06-30T05:46:18.227Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T05:48:31.788Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T05:48:36.688Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T06:13:22.357Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T06:13:22.419Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T06:20:39.732Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T06:20:39.818Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T06:21:26.753Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T06:23:04.745Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T06:23:04.778Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T06:24:30.621Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T06:24:33.449Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T06:26:34.278Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T06:26:34.345Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T06:27:34.907Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T06:27:34.962Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T06:31:14.766Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T06:31:14.803Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T06:40:03.202Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T06:40:03.254Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T06:54:22.746Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T06:54:22.808Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T07:03:34.150Z - normal: Introduced global variable while editing: i
+2018-06-30T07:03:34.175Z - normal: Introduced global variable while editing: l
+2018-06-30T07:03:37.880Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T07:03:37.963Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T07:09:46.568Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T07:09:51.413Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T07:17:11.712Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T07:17:30.551Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T07:19:14.016Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T07:21:16.365Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T07:21:16.419Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T07:28:10.430Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T07:38:48.109Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T07:38:48.819Z - error: TypeError: Cannot read property 'getComponent' of null
+    at HTMLElement.scene:query-animation-list (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14976)
+    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2283)
+    at EventEmitter.ipcRenderer.on.o (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4054)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-30T07:38:48.835Z - error: TypeError: Cannot read property 'getComponent' of null
+    at HTMLElement.scene:query-animation-list (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14976)
+    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2283)
+    at EventEmitter.ipcRenderer.on.o (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4054)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-30T07:38:49.813Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T07:41:10.539Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T07:43:17.560Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T07:48:17.846Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T07:49:58.833Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T07:51:00.856Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1123031

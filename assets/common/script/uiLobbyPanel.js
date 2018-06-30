@@ -48,7 +48,7 @@ cc.Class({
                     setTimeout(function() {
                         Game.GameManager.network.send("connector.rankHandler.getRankData", {
                             "account": GLB.userInfo.id + "",
-                            "game": "game3"
+                            "game": GLB.GAME_NAME
                         });
                     }, 500);
                 }
@@ -56,7 +56,7 @@ cc.Class({
         } else {
             Game.GameManager.network.send("connector.rankHandler.getRankData", {
                 "account": GLB.userInfo.id + "",
-                "game": "game3"
+                "game": GLB.GAME_NAME
             });
         }
     },

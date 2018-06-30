@@ -12,20 +12,50 @@ cc.Class({
             default: null,
             type: cc.ProgressBar
         },
-        fireCd: 0
+        fireCd: 0,
+        goalAudio: {
+            default: null,
+            url: cc.AudioClip
+        },
+        countDownAnim: {
+            default: null,
+            type: cc.Animation
+        }
     },
     onLoad() {
         this._super();
         this.isPowerGauge = false;
         this.curFireCd = this.fireCd;
         this.progressSpeed = 1;
+        this.lastTime = GLB.gameTime;
         this.nodeDict["right"].on(cc.Node.EventType.TOUCH_START, this.rightStart, this);
         this.nodeDict["right"].on(cc.Node.EventType.TOUCH_END, this.rightCancel, this);
         this.nodeDict["left"].on(cc.Node.EventType.TOUCH_START, this.leftStart, this);
         this.nodeDict["left"].on(cc.Node.EventType.TOUCH_END, this.leftCancel, this);
         this.nodeDict["powerButton"].on(cc.Node.EventType.TOUCH_START, this.startPowerGauge, this);
         this.nodeDict["powerButton"].on(cc.Node.EventType.TOUCH_END, this.sendFireMsg, this);
+        this.nodeDict["exit"].on("click", this.exit, this);
+        this.timeLb = this.nodeDict["timeLb"].getComponent(cc.Label);
 
+        this.selfScoreLb = this.nodeDict["scoreLb1"].getComponent(cc.Label);
+        this.rivalScoreLb = this.nodeDict["scoreLb2"].getComponent(cc.Label);
+
+        clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
+        clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
+        clientEvent.on(clientEvent.eventType.score, this.scoreEvent, this);
+        clientEvent.on(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
+
+        this.bgmId = cc.audioEngine.play(this.bgmAudio, true, 1);
+    },
+
+    scoreEvent() {
+        this.selfScoreLb.string = Game.GameManager.selfScore;
+        this.rivalScoreLb.string = Game.GameManager.rivalScore;
+        cc.audioEngine.play(this.goalAudio, false, 1);
+    },
+
+    exit() {
+        uiFunc.openUI("uiExit");
     },
 
     leaveRoom(data) {
@@ -74,17 +104,33 @@ cc.Class({
     sendFireMsg() {
         if (this.curFireCd < 0) {
             this.curFireCd = this.fireCd;
-            Game.PlayerManager.self.firePreAnim();
-            setTimeout(function() {
-                if (Game.GameManager.gameState === GameState.Play) {
+            if (Game.GameManager.gameState === GameState.Play) {
+                var speed = this.powerGauge.progress * GLB.speed;
+                setTimeout(function() {
                     mvs.engine.sendFrameEvent(JSON.stringify({
-                        action: GLB.FIRE
+                        action: GLB.FIRE_EVENT,
+                        speed: speed
                     }));
-                }
-            }, 2000);
+                }, 400);
+                mvs.engine.sendFrameEvent(JSON.stringify({
+                    action: GLB.FIRE_ANIM
+                }));
+            }
         }
         this.powerGauge.progress = 0;
         this.isPowerGauge = false;
+    },
+
+    gameOver: function() {
+        this.nodeDict['gameOver'].getComponent(cc.Animation).play();
+        this.nodeDict['gameOver'].getComponent(cc.AudioSource).play();
+
+        cc.audioEngine.stop(this.bgmId);
+    },
+
+    roundStart: function() {
+        this.nodeDict['readyGo'].getComponent(cc.Animation).play();
+        this.nodeDict['readyGo'].getComponent(cc.AudioSource).play();
     },
 
     update(dt) {
@@ -92,5 +138,20 @@ cc.Class({
         if (this.isPowerGauge) {
             this.powerGauge.progress += this.progressSpeed * dt;
         }
+        this.timeLb.string = Game.GameManager.gameTime;
+        if (Game.GameManager.gameTime < 10) {
+            if (this.lastTime != Game.GameManager.gameTime) {
+                this.countDownAnim.play();
+            }
+            this.lastTime = Game.GameManager.gameTime;
+        }
+    },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.score, this.scoreEvent, this);
+        clientEvent.off(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
+        clientEvent.off(clientEvent.eventType.roundStart, this.roundStart, this);
+        clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
+
     }
 });

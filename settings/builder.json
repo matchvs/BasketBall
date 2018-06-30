@@ -26,10 +26,10 @@
   },
   "renderMode": "0",
   "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "title": "duckHunt",
+  "title": "basketball",
   "webOrientation": "landscape",
   "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/duckhunt",
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
     "appid": "wx793199d0ca521154",
     "orientation": "landscape"
   },

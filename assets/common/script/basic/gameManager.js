@@ -5,10 +5,15 @@ cc.Class({
         Game.GameManager = this;
         cc.game.addPersistRootNode(this.node);
         cc.director.getCollisionManager().enabled = true;
+        cc.director.getPhysicsManager().enabled = true;
+        // cc.director.getPhysicsManager().debugDrawFlags = 1;
         clientEvent.init();
         dataFunc.loadConfigs();
         cc.view.enableAutoFullScreen(false);
-        this.coin = 100;
+        this.rivalScore = 0;
+        this.selfScore = 0;
+        this.gameTime = 0;
+        this.isRivalLeave = false;
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
         this.network = window.network;
@@ -38,11 +43,12 @@ cc.Class({
     },
 
     leaveRoom: function(data) {
-        //切换房主
-        if (Game.GameManager.gameState === GameState.Play) {
-            if (data.leaveRoomInfo.owner === GLB.userInfo.id) {
-                GLB.isRoomOwner = true;
+        if (this.gameState === GameState.Play) {
+            if (data.leaveRoomInfo.userId !== GLB.userInfo.id) {
+                this.isRivalLeave = true;
             }
+            clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify, data);
+            this.gameOver();
         }
     },
 
@@ -51,44 +57,23 @@ cc.Class({
         console.log("游戏结束");
         if (Game.GameManager.gameState !== GameState.Over) {
             Game.GameManager.gameState = GameState.Over;
-            var data = [].concat(GLB.playerUserIds);
-            data.sort(function(a, b) {
-                var playerA = Game.PlayerManager.getPlayerByUserId(a);
-                var playerB = Game.PlayerManager.getPlayerByUserId(b);
-                if (playerA && playerB) {
-                    if (playerB.score !== playerA.score) {
-                        return playerB.score > playerA.score;
-                    } else {
-                        return a > b;
-                    }
-                } else {
-                    return a > b;
-                }
-            })
-
+            this.readyCnt = 0;
             setTimeout(function() {
-                if (cc.Canvas.instance.designResolution.height > cc.Canvas.instance.designResolution.width) {
-                    uiFunc.openUI("uiResultVer", function(obj) {
-                        var uiResultScript = obj.getComponent("uiResult");
-                        if (uiResultScript) {
-                            uiResultScript.setData(data);
-                        }
-                    });
-                } else {
-                    uiFunc.openUI("uiResult", function(obj) {
-                        var uiResultScript = obj.getComponent("uiResult");
-                        if (uiResultScript) {
-                            uiResultScript.setData(data);
-                        }
-                    });
-                }
+                clientEvent.dispatch(clientEvent.eventType.gameOver);
             }.bind(this), 1500);
+            setTimeout(function() {
+                uiFunc.openUI("uiVsResult");
+            }.bind(this), 3000);
         }
     },
 
     startGame: function() {
         this.readyCnt = 0;
         this.gameState = GameState.None;
+        this.rivalScore = 0;
+        this.selfScore = 0;
+        this.isRivalLeave = false;
+        this.gameTime = GLB.gameTime;
         cc.director.loadScene('game', function() {
             uiFunc.openUI("uiGamePanel", function() {
                 this.sendReadyMsg();
@@ -348,6 +333,7 @@ cc.Class({
         if (info.cpProto.indexOf(GLB.ROUND_START) >= 0) {
             setTimeout(function() {
                 Game.GameManager.gameState = GameState.Play;
+                this.timeUpdate();
             }.bind(this), 2000);
             clientEvent.dispatch(clientEvent.eventType.roundStart);
 
@@ -384,49 +370,72 @@ cc.Class({
                     Game.PlayerManager.rival.setDirect(cpProto.direction);
                 }
             }
-            if (info.cpProto.indexOf(GLB.FIRE) >= 0) {
+
+            if (info.cpProto.indexOf(GLB.FIRE_ANIM) >= 0) {
                 if (GLB.userInfo.id === info.srcUserID) {
-                    Game.PlayerManager.self.fireNotify();
+                    Game.PlayerManager.self.firePreAnim();
                 } else {
-                    Game.PlayerManager.rival.fireNotify();
+                    Game.PlayerManager.rival.firePreAnim();
                 }
             }
 
-            if (info.cpProto.indexOf(GLB.HIT_EVENT) >= 0) {
-                if (GLB.userInfo.id === cpProto.playerId) {
-                    Game.PlayerManager.self.hitEvent();
+            if (info.cpProto.indexOf(GLB.FIRE_EVENT) >= 0) {
+                if (GLB.userInfo.id === info.srcUserID) {
+                    Game.PlayerManager.self.fireNotify(cpProto.speed);
                 } else {
-                    Game.PlayerManager.rival.hitEvent();
+                    Game.PlayerManager.rival.fireNotify(cpProto.speed);
                 }
-                // 得分--
+            }
+
+            if (info.cpProto.indexOf(GLB.GAME_TIME) >= 0) {
+                this.gameTime--;
+                if (this.gameTime < 0) {
+                    this.gameTime = 0;
+                }
+            }
+
+            if (info.cpProto.indexOf(GLB.GOAL_EVENT) >= 0) {
+                // cpProto.playerId 为受伤方id--
+                if (GLB.userInfo.id === cpProto.playerId) {
+                    Game.PlayerManager.self.hitNotify();
+                    this.rivalScore++;
+                } else {
+                    Game.PlayerManager.rival.hitNotify();
+                    this.selfScore++;
+                }
+                clientEvent.dispatch(clientEvent.eventType.score);
             }
         }
-        if(Game.PlayerManager) {
+        if (Game.PlayerManager) {
+            if (Math.abs(Game.PlayerManager.self.targetPosX - Game.PlayerManager.rival.targetPosX) < GLB.playerMinDistance) {
+                if (Game.PlayerManager.self.targetPosX < Game.PlayerManager.rival.targetPosX) {
+                    Game.PlayerManager.self.targetPosX -= GLB.bounceDistance;
+                    Game.PlayerManager.rival.targetPosX += GLB.bounceDistance;
+                } else {
+                    Game.PlayerManager.self.targetPosX += GLB.bounceDistance;
+                    Game.PlayerManager.rival.targetPosX -= GLB.bounceDistance;
+                }
+            }
             Game.PlayerManager.self.move();
             Game.PlayerManager.rival.move();
+
         }
     },
 
     timeUpdate: function() {
         var self = this;
         var id = setInterval(() => {
-
             if (GLB.isRoomOwner) {
-                var time = self.gameTime - 1;
-                var msg = {
-                    action: GLB.GAME_TIME,
-                    time: time
-                };
-                Game.GameManager.sendEventEx(msg);
-                if (time < 0 || this.gameState === GameState.Over) {
+                if (self.gameTime <= 0 || this.gameState === GameState.Over) {
                     clearInterval(id);
-                    var msg = {
-                        action: GLB.GAME_OVER_EVENT,
-                    };
-                    Game.GameManager.sendEventEx(msg);
+                    Game.GameManager.sendEventEx({action: GLB.GAME_OVER_EVENT});
+                } else {
+                    mvs.engine.sendFrameEvent(JSON.stringify({
+                        action: GLB.GAME_TIME,
+                    }));
                 }
             } else {
-                if (self.gameTime < 0 || this.gameState === GameState.Over) {
+                if (self.gameTime <= 0 || this.gameState === GameState.Over) {
                     clearInterval(id);
                 }
             }
@@ -460,7 +469,7 @@ cc.Class({
                     setTimeout(function() {
                         this.network.send("connector.rankHandler.updateScore", {
                             "account": GLB.userInfo.id + "",
-                            "game": "game3"
+                            "game": GLB.GAME_NAME
                         });
                     }.bind(this), 500);
                 }.bind(this)
@@ -468,7 +477,7 @@ cc.Class({
         } else {
             this.network.send("connector.rankHandler.updateScore", {
                 "account": GLB.userInfo.id + "",
-                "game": "game3"
+                "game": GLB.GAME_NAME
             });
         }
     },

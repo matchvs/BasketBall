@@ -29,21 +29,19 @@ window.GLB = {
     COOPERATION: 1,
     COMPETITION: 2,
     MAX_PLAYER_COUNT: 2,
-
     PLAYER_COUNTS: [2],
 
     GAME_START_EVENT: "gameStart",
     GAME_OVER_EVENT: "gameOver",
     READY: "ready",
     ROUND_START: "roundStar",
-    HIT_EVENT: "hitEvent",
     SHOOT_GUN_ITEM: "shootGunItem",
-    FIRE: "fire",
+    FIRE_EVENT: "fire_event",
+    FIRE_ANIM: "fire_anim",
+    TOUCH_EVENT: "touch_event",
+    GOAL_EVENT: "goal_event",
     DIRECTION: "direction",
-    SPAWN_SLATE: "slateSpawn",
-    SCORE: "hurt",
-    ITEM_GET: "itemGet",
-    SLATE_HITTING: "SlateHitting",
+    GAME_TIME: "game_time",
 
     channel: 'MatchVS',
     platform: 'alpha',
@@ -54,6 +52,13 @@ window.GLB = {
     GAME_NAME: "game6",
     appKey: 'fb72bbd6f9ca4804bbb7dae12c710068',
     secret: 'fb1ad6cf74724a27a59ad83c089ad26c',
+
+    gameTime: 60,
+    speed: 750,
+    speedY: 400,
+    bounceDistance: 100,
+    //双方距离--
+    playerMinDistance: 268,
 
     matchType: 1,
     gameType: 2,
