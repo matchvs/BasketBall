@@ -448,3 +448,844 @@ Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
 
 2018-06-30T07:49:58.833Z - normal: ScaleX != ScaleY. Don't know which one to return
 2018-06-30T07:51:00.856Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1123031
+2018-06-30T07:59:57.009Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T08:00:06.879Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "basketball",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "landscape",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
+    "appid": "wx793199d0ca521154",
+    "orientation": "landscape"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/basketball",
+  "projectName": "basketball",
+  "debugBuildWorker": false
+}
+2018-06-30T08:00:06.895Z - normal: Building /Users/mac/MatchVsGames/basketball
+2018-06-30T08:00:06.895Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
+2018-06-30T08:00:07.396Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
+2018-06-30T08:00:18.602Z - normal: Compiled project javascript file successfully
+2018-06-30T08:00:18.603Z - normal: Start building assets
+2018-06-30T08:00:18.603Z - normal: Start spawn build-worker
+2018-06-30T08:00:19.352Z - normal: Finish spawn build-worker
+2018-06-30T08:00:19.352Z - normal: Start init build-worker
+2018-06-30T08:00:21.615Z - normal: 1.9.2
+2018-06-30T08:00:21.957Z - normal: Finish init build-worker
+2018-06-30T08:00:21.957Z - normal: Start build-assets in worker
+2018-06-30T08:00:22.466Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-06-30T08:00:23.074Z - normal: Finish build-assets in worker
+2018-06-30T08:00:23.079Z - normal: Finish building assets
+2018-06-30T08:00:23.104Z - normal: Start building raw assets
+2018-06-30T08:00:23.106Z - normal: Start building plugin scripts
+2018-06-30T08:00:25.464Z - normal: Finish building plugin scripts
+2018-06-30T08:00:25.657Z - normal: Finish building raw assets
+2018-06-30T08:00:25.662Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-30T08:00:26.914Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
+2018-06-30T08:01:37.077Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-30T08:01:37.079Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-30T08:01:37.476Z - normal: Initializing...
+
+2018-06-30T08:01:37.484Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-30T08:01:37.511Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+
+2018-06-30T08:01:37.511Z - normal: initialization finished
+
+2018-06-30T08:01:38.128Z - normal: open IDE success
+
+2018-06-30T08:04:18.784Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-30T08:04:18.786Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-30T08:04:19.184Z - normal: Initializing...
+
+2018-06-30T08:04:19.193Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-30T08:04:19.212Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+initialization finished
+
+2018-06-30T08:04:19.684Z - normal: open IDE success
+
+2018-06-30T08:11:16.401Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T08:14:16.521Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T08:16:43.475Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T08:16:43.573Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T08:17:24.311Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T08:17:24.349Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T08:18:41.426Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "basketball",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "landscape",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
+    "appid": "wx793199d0ca521154",
+    "orientation": "landscape"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/basketball",
+  "projectName": "basketball",
+  "debugBuildWorker": false
+}
+2018-06-30T08:18:41.439Z - normal: Building /Users/mac/MatchVsGames/basketball
+2018-06-30T08:18:41.439Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
+2018-06-30T08:18:41.440Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
+2018-06-30T08:18:50.621Z - normal: Compiled project javascript file successfully
+2018-06-30T08:18:50.622Z - normal: Start building assets
+2018-06-30T08:18:50.622Z - normal: Start spawn build-worker
+2018-06-30T08:18:51.252Z - normal: Finish spawn build-worker
+2018-06-30T08:18:51.252Z - normal: Start init build-worker
+2018-06-30T08:18:53.105Z - normal: 1.9.2
+2018-06-30T08:18:53.405Z - normal: Finish init build-worker
+2018-06-30T08:18:53.405Z - normal: Start build-assets in worker
+2018-06-30T08:18:53.875Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-06-30T08:18:53.974Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-30T08:18:54.437Z - normal: Finish build-assets in worker
+2018-06-30T08:18:54.441Z - normal: Finish building assets
+2018-06-30T08:18:54.467Z - normal: Start building raw assets
+2018-06-30T08:18:54.467Z - normal: Start building plugin scripts
+2018-06-30T08:18:56.118Z - normal: Finish building plugin scripts
+2018-06-30T08:18:56.192Z - normal: Finish building raw assets
+2018-06-30T08:18:56.196Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-30T08:18:57.540Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
+2018-06-30T08:20:53.506Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-30T08:20:53.507Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-30T08:20:53.931Z - normal: Initializing...
+
+2018-06-30T08:20:53.943Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-30T08:20:53.963Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+initialization finished
+
+2018-06-30T08:20:54.176Z - normal: open IDE success
+
+2018-06-30T08:22:20.052Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T08:35:24.062Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "basketball",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "landscape",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
+    "appid": "wx793199d0ca521154",
+    "orientation": "landscape"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/basketball",
+  "projectName": "basketball",
+  "debugBuildWorker": false
+}
+2018-06-30T08:35:24.070Z - normal: Building /Users/mac/MatchVsGames/basketball
+2018-06-30T08:35:24.070Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
+2018-06-30T08:35:24.071Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
+2018-06-30T08:35:34.122Z - normal: Compiled project javascript file successfully
+2018-06-30T08:35:34.123Z - normal: Start building assets
+2018-06-30T08:35:34.123Z - normal: Start spawn build-worker
+2018-06-30T08:35:34.769Z - normal: Finish spawn build-worker
+2018-06-30T08:35:34.769Z - normal: Start init build-worker
+2018-06-30T08:35:36.885Z - normal: 1.9.2
+2018-06-30T08:35:37.208Z - normal: Finish init build-worker
+2018-06-30T08:35:37.208Z - normal: Start build-assets in worker
+2018-06-30T08:35:37.960Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-06-30T08:35:37.982Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-30T08:35:38.629Z - normal: Finish build-assets in worker
+2018-06-30T08:35:38.633Z - normal: Finish building assets
+2018-06-30T08:35:38.662Z - normal: Start building raw assets
+2018-06-30T08:35:38.663Z - normal: Start building plugin scripts
+2018-06-30T08:35:40.986Z - normal: Finish building plugin scripts
+2018-06-30T08:35:41.090Z - normal: Finish building raw assets
+2018-06-30T08:35:41.095Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-30T08:35:42.609Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
+2018-06-30T08:38:22.619Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-30T08:38:22.620Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-30T08:38:23.021Z - normal: Initializing...
+
+2018-06-30T08:38:23.028Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-30T08:38:23.048Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+initialization finished
+
+2018-06-30T08:38:23.249Z - normal: open IDE success
+
+2018-06-30T08:42:53.687Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "basketball",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "landscape",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
+    "appid": "wx793199d0ca521154",
+    "orientation": "landscape"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/basketball",
+  "projectName": "basketball",
+  "debugBuildWorker": false
+}
+2018-06-30T08:42:53.696Z - normal: Building /Users/mac/MatchVsGames/basketball
+2018-06-30T08:42:53.696Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
+2018-06-30T08:42:53.697Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
+2018-06-30T08:43:02.836Z - normal: Compiled project javascript file successfully
+2018-06-30T08:43:02.836Z - normal: Start building assets
+2018-06-30T08:43:02.836Z - normal: Start spawn build-worker
+2018-06-30T08:43:03.440Z - normal: Finish spawn build-worker
+2018-06-30T08:43:03.440Z - normal: Start init build-worker
+2018-06-30T08:43:05.270Z - normal: 1.9.2
+2018-06-30T08:43:05.573Z - normal: Finish init build-worker
+2018-06-30T08:43:05.573Z - normal: Start build-assets in worker
+2018-06-30T08:43:06.087Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-06-30T08:43:06.102Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-30T08:43:06.586Z - normal: Finish build-assets in worker
+2018-06-30T08:43:06.590Z - normal: Finish building assets
+2018-06-30T08:43:06.616Z - normal: Start building raw assets
+2018-06-30T08:43:06.617Z - normal: Start building plugin scripts
+2018-06-30T08:43:08.294Z - normal: Finish building plugin scripts
+2018-06-30T08:43:08.372Z - normal: Finish building raw assets
+2018-06-30T08:43:08.376Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-30T08:43:09.398Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
+2018-06-30T08:43:21.727Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-30T08:43:21.728Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-30T08:43:22.147Z - normal: Initializing...
+
+2018-06-30T08:43:22.158Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-30T08:43:22.174Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+initialization finished
+
+2018-06-30T08:43:22.501Z - normal: open IDE success
+
+2018-06-30T08:59:33.226Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "basketball",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "landscape",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
+    "appid": "wx793199d0ca521154",
+    "orientation": "landscape"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/basketball",
+  "projectName": "basketball",
+  "debugBuildWorker": false
+}
+2018-06-30T08:59:33.238Z - normal: Building /Users/mac/MatchVsGames/basketball
+2018-06-30T08:59:33.238Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
+2018-06-30T08:59:33.240Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
+2018-06-30T08:59:40.715Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T08:59:43.150Z - normal: Compiled project javascript file successfully
+2018-06-30T08:59:43.151Z - normal: Start building assets
+2018-06-30T08:59:43.151Z - normal: Start spawn build-worker
+2018-06-30T08:59:43.927Z - normal: Finish spawn build-worker
+2018-06-30T08:59:43.927Z - normal: Start init build-worker
+2018-06-30T08:59:46.005Z - normal: 1.9.2
+2018-06-30T08:59:46.376Z - normal: Finish init build-worker
+2018-06-30T08:59:46.376Z - normal: Start build-assets in worker
+2018-06-30T08:59:46.940Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-06-30T08:59:46.964Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-30T08:59:47.411Z - normal: Finish build-assets in worker
+2018-06-30T08:59:47.416Z - normal: Finish building assets
+2018-06-30T08:59:47.443Z - normal: Start building raw assets
+2018-06-30T08:59:47.444Z - normal: Start building plugin scripts
+2018-06-30T08:59:49.217Z - normal: Finish building plugin scripts
+2018-06-30T08:59:49.298Z - normal: Finish building raw assets
+2018-06-30T08:59:49.302Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-30T08:59:50.389Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
+2018-06-30T08:59:55.192Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-30T08:59:55.196Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-30T08:59:55.738Z - normal: Initializing...
+
+2018-06-30T08:59:55.745Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-30T08:59:55.770Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+
+2018-06-30T08:59:55.770Z - normal: initialization finished
+
+2018-06-30T08:59:55.953Z - normal: open IDE success
+
+2018-06-30T09:04:41.773Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T09:04:41.934Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T09:07:48.785Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T09:09:50.844Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T09:12:19.961Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "basketball",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "landscape",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
+    "appid": "wx793199d0ca521154",
+    "orientation": "landscape"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/basketball",
+  "projectName": "basketball",
+  "debugBuildWorker": false
+}
+2018-06-30T09:12:19.969Z - normal: Building /Users/mac/MatchVsGames/basketball
+2018-06-30T09:12:19.969Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
+2018-06-30T09:12:19.970Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
+2018-06-30T09:12:29.350Z - normal: Compiled project javascript file successfully
+2018-06-30T09:12:29.350Z - normal: Start building assets
+2018-06-30T09:12:29.350Z - normal: Start spawn build-worker
+2018-06-30T09:12:29.968Z - normal: Finish spawn build-worker
+2018-06-30T09:12:29.969Z - normal: Start init build-worker
+2018-06-30T09:12:31.925Z - normal: 1.9.2
+2018-06-30T09:12:32.211Z - normal: Finish init build-worker
+2018-06-30T09:12:32.212Z - normal: Start build-assets in worker
+2018-06-30T09:12:32.721Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-06-30T09:12:32.747Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-30T09:12:33.159Z - normal: Finish build-assets in worker
+2018-06-30T09:12:33.164Z - normal: Finish building assets
+2018-06-30T09:12:33.191Z - normal: Start building raw assets
+2018-06-30T09:12:33.192Z - normal: Start building plugin scripts
+2018-06-30T09:12:35.025Z - normal: Finish building plugin scripts
+2018-06-30T09:12:35.111Z - normal: Finish building raw assets
+2018-06-30T09:12:35.118Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-30T09:12:36.162Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
+2018-06-30T09:14:38.851Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-30T09:14:38.853Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-30T09:14:39.287Z - normal: Initializing...
+
+2018-06-30T09:14:39.294Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-30T09:14:39.315Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+initialization finished
+
+2018-06-30T09:14:40.081Z - normal: open IDE success
+
+2018-06-30T09:15:20.964Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T09:15:21.915Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "basketball",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "landscape",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
+    "appid": "wx793199d0ca521154",
+    "orientation": "landscape"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/basketball",
+  "projectName": "basketball",
+  "debugBuildWorker": false
+}
+2018-06-30T09:15:21.927Z - normal: Building /Users/mac/MatchVsGames/basketball
+2018-06-30T09:15:21.928Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
+2018-06-30T09:15:21.928Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
+2018-06-30T09:15:36.539Z - normal: Compiled project javascript file successfully
+2018-06-30T09:15:36.540Z - normal: Start building assets
+2018-06-30T09:15:36.540Z - normal: Start spawn build-worker
+2018-06-30T09:15:37.255Z - normal: Finish spawn build-worker
+2018-06-30T09:15:37.255Z - normal: Start init build-worker
+2018-06-30T09:15:39.557Z - normal: 1.9.2
+2018-06-30T09:15:39.878Z - normal: Finish init build-worker
+2018-06-30T09:15:39.878Z - normal: Start build-assets in worker
+2018-06-30T09:15:40.474Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-06-30T09:15:40.654Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-30T09:15:41.219Z - normal: Finish build-assets in worker
+2018-06-30T09:15:41.223Z - normal: Finish building assets
+2018-06-30T09:15:41.250Z - normal: Start building raw assets
+2018-06-30T09:15:41.251Z - normal: Start building plugin scripts
+2018-06-30T09:15:43.459Z - normal: Finish building plugin scripts
+2018-06-30T09:15:43.571Z - normal: Finish building raw assets
+2018-06-30T09:15:43.575Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-30T09:15:44.689Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
+2018-06-30T09:15:56.666Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-30T09:15:56.668Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-30T09:15:57.350Z - normal: Initializing...
+
+2018-06-30T09:15:57.368Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-30T09:15:57.412Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+
+2018-06-30T09:15:57.413Z - normal: initialization finished
+
+2018-06-30T09:15:57.724Z - normal: open IDE success
+
+2018-06-30T09:21:07.525Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-06-30T09:21:28.131Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "basketball",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "landscape",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
+    "appid": "wx793199d0ca521154",
+    "orientation": "landscape"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/basketball",
+  "projectName": "basketball",
+  "debugBuildWorker": false
+}
+2018-06-30T09:21:28.137Z - normal: Building /Users/mac/MatchVsGames/basketball
+2018-06-30T09:21:28.137Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
+2018-06-30T09:21:28.138Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
+2018-06-30T09:21:37.269Z - normal: Compiled project javascript file successfully
+2018-06-30T09:21:37.270Z - normal: Start building assets
+2018-06-30T09:21:37.270Z - normal: Start spawn build-worker
+2018-06-30T09:21:37.891Z - normal: Finish spawn build-worker
+2018-06-30T09:21:37.891Z - normal: Start init build-worker
+2018-06-30T09:21:39.716Z - normal: 1.9.2
+2018-06-30T09:21:40.017Z - normal: Finish init build-worker
+2018-06-30T09:21:40.017Z - normal: Start build-assets in worker
+2018-06-30T09:21:40.585Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-06-30T09:21:40.599Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-30T09:21:41.055Z - normal: Finish build-assets in worker
+2018-06-30T09:21:41.060Z - normal: Finish building assets
+2018-06-30T09:21:41.086Z - normal: Start building raw assets
+2018-06-30T09:21:41.086Z - normal: Start building plugin scripts
+2018-06-30T09:21:42.886Z - normal: Finish building plugin scripts
+2018-06-30T09:21:42.957Z - normal: Finish building raw assets
+2018-06-30T09:21:42.961Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-30T09:21:43.923Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
+2018-06-30T09:21:56.365Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-30T09:21:56.366Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-30T09:21:56.759Z - normal: Initializing...
+
+2018-06-30T09:21:56.767Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-30T09:21:56.791Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+
+2018-06-30T09:21:56.791Z - normal: initialization finished
+
+2018-06-30T09:21:59.214Z - normal: open IDE success
+
+2018-06-30T09:25:13.654Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T09:26:03.036Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-06-30T09:27:11.450Z - normal: ScaleX != ScaleY. Don't know which one to return

@@ -12,12 +12,8 @@ cc.Class({
         this.playerId = userInfo.id ? userInfo.id : userInfo.userId;
         this.playerSprite.node.active = true;
         Game.GameManager.userInfoReq(this.playerId);
-    },
-
-    init: function() {
-        this.userInfo = null;
-        this.playerSprite.node.active = false;
         clientEvent.on(clientEvent.eventType.playerAccountGet, this.userInfoSet, this);
+
     },
 
     userInfoSet: function(recvMsg) {
@@ -29,10 +25,6 @@ cc.Class({
                 }.bind(this));
             }
         }
-    },
-
-    start() {
-        this.init();
     },
 
     onDestroy() {

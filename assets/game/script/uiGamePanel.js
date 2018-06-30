@@ -28,6 +28,8 @@ cc.Class({
         this.curFireCd = this.fireCd;
         this.progressSpeed = 1;
         this.lastTime = GLB.gameTime;
+        this.nodeDict["playerIcon1"].getComponent('playerIcon').setData({id: GLB.playerUserIds[0]});
+        this.nodeDict["playerIcon2"].getComponent('playerIcon').setData({id: GLB.playerUserIds[1]});
         this.nodeDict["right"].on(cc.Node.EventType.TOUCH_START, this.rightStart, this);
         this.nodeDict["right"].on(cc.Node.EventType.TOUCH_END, this.rightCancel, this);
         this.nodeDict["left"].on(cc.Node.EventType.TOUCH_START, this.leftStart, this);
