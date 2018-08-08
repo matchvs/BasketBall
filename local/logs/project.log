@@ -1,467 +1,154 @@
-2018-06-28T07:02:18.771Z - normal: Load ~/.CocosCreator/settings.json
-2018-06-28T07:02:18.775Z - normal: checking language setting...
-2018-06-28T07:02:18.775Z - normal: Language: zh
-2018-06-28T07:02:19.696Z - success: protocol editor-framework registered
-2018-06-28T07:02:19.696Z - success: protocol app registered
-2018-06-28T07:02:19.696Z - success: protocol theme registered
-2018-06-28T07:02:19.697Z - success: protocol packages registered
-2018-06-28T07:02:19.697Z - success: protocol unpack registerred
-2018-06-28T07:02:19.697Z - success: protocol disable-commonjs registerred
-2018-06-28T07:02:20.553Z - normal: connected!
-2018-06-28T07:02:20.554Z - normal: Check project /Users/mac/MatchVsGames/basketball
-2018-06-28T07:02:20.556Z - normal: Initializing Cocos2d
-2018-06-28T07:02:20.757Z - normal: Initializing Asset Database
-2018-06-28T07:02:20.791Z - success: protocol uuid registerred
-2018-06-28T07:02:20.791Z - success: protocol db registerred
-2018-06-28T07:02:20.791Z - success: protocol thumbnail registerred
-2018-06-28T07:02:20.792Z - normal: Loading editor/builtin packages
-2018-06-28T07:02:20.809Z - success: anysdk loaded
-2018-06-28T07:02:20.912Z - success: assets loaded
-2018-06-28T07:02:20.915Z - success: builder loaded
-2018-06-28T07:02:20.917Z - success: cocos-analytics loaded
-2018-06-28T07:02:20.921Z - success: console loaded
-2018-06-28T07:02:20.951Z - success: fb-instant-games loaded
-2018-06-28T07:02:20.955Z - success: hierarchy loaded
-2018-06-28T07:02:20.959Z - success: inspector loaded
-2018-06-28T07:02:20.960Z - success: keystore loaded
-2018-06-28T07:02:20.964Z - success: node-library loaded
-2018-06-28T07:02:20.965Z - success: package-asset loaded
-2018-06-28T07:02:20.967Z - success: preferences loaded
-2018-06-28T07:02:20.970Z - success: project-exporter loaded
-2018-06-28T07:02:20.986Z - success: project-importer loaded
-2018-06-28T07:02:20.991Z - success: project-settings loaded
-2018-06-28T07:02:20.996Z - success: ui-kit loaded
-2018-06-28T07:02:21.001Z - success: ui-grid loaded
-2018-06-28T07:02:21.006Z - success: scene loaded
-2018-06-28T07:02:21.007Z - success: sprite-editor loaded
-2018-06-28T07:02:21.011Z - success: store loaded
-2018-06-28T07:02:21.016Z - success: timeline loaded
-2018-06-28T07:02:21.017Z - normal: Loading builtin packages
-2018-06-28T07:02:21.021Z - success: asset-db-debugger loaded
-2018-06-28T07:02:21.022Z - success: color-picker loaded
-2018-06-28T07:02:21.026Z - success: package-manager loaded
-2018-06-28T07:02:21.027Z - success: qqplay-adapter loaded
-2018-06-28T07:02:21.036Z - success: sdkbox loaded
-2018-06-28T07:02:21.040Z - success: tester loaded
-2018-06-28T07:02:21.044Z - success: ui-kit-preview-extra loaded
-2018-06-28T07:02:21.048Z - success: ui-kit-preview loaded
-2018-06-28T07:02:21.052Z - success: ui-tree loaded
-2018-06-28T07:02:21.054Z - success: weapp-adapter loaded
-2018-06-28T07:02:21.976Z - normal: Initializing project /Users/mac/MatchVsGames/basketball
-2018-06-28T07:02:21.978Z - normal: Loading packages
-2018-06-28T07:02:21.991Z - success: plugin-matchvs loaded
-2018-06-28T07:02:21.991Z - normal: Watching packages
-2018-06-28T07:02:22.105Z - normal: Run Application
-2018-06-28T07:02:22.974Z - success: preview server running at http://localhost:7457
-2018-06-28T07:02:29.755Z - normal: 1.9.2
-2018-06-28T07:05:43.471Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T07:35:49.654Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T07:37:18.113Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T07:47:53.445Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T08:01:36.196Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T08:04:11.618Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T08:05:45.886Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T08:06:15.285Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T08:06:58.053Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T08:10:00.208Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T09:04:55.583Z - normal: Introduced global variable while editing: i
-2018-06-28T09:04:55.586Z - normal: Introduced global variable while editing: l
-2018-06-28T09:04:57.162Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T09:05:25.326Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T09:38:42.408Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T09:49:25.329Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-28T09:51:29.014Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T08:04:59.921Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T08:22:46.313Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T08:33:47.929Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T08:44:25.104Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T08:45:03.059Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T08:52:49.920Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T11:41:13.469Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T11:43:37.465Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T11:47:01.133Z - normal: Introduced global variable while editing: i
-2018-06-29T11:47:01.136Z - normal: Introduced global variable while editing: l
-2018-06-29T12:24:54.501Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:590220
-2018-06-29T12:33:07.469Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T12:33:46.519Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:599135
-2018-06-29T12:39:54.852Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:604972
-2018-06-29T12:39:54.864Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:604974
-2018-06-29T12:41:13.481Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:606214
-2018-06-29T13:08:14.409Z - normal: Introduced global variable while editing: i
-2018-06-29T13:08:14.411Z - normal: Introduced global variable while editing: l
-2018-06-29T13:08:21.983Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T13:09:16.774Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T13:16:59.834Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T13:56:09.818Z - normal: Introduced global variable while editing: i
-2018-06-29T13:56:09.821Z - normal: Introduced global variable while editing: l
-2018-06-29T13:56:15.007Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T14:11:27.451Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T14:33:25.190Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGames/basketball/assets/common/script/basic/Globals.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGames/basketball/assets/common/script/basic/Globals.js: Unexpected token, expected , (34:4)
-  32 |     PLAYER_COUNTS: [2]
-  33 | 
-> 34 |     GAME_START_EVENT: "gameStart",
-     |     ^
-  35 |     GAME_OVER_EVENT: "gameOver",
-  36 |     READY: "ready",
-  37 |     ROUND_START: "roundStar",
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp.expect (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
-    at Parser.pp$3.parseObj (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
-2018-06-29T14:33:36.091Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T14:33:58.228Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-29T14:34:57.140Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T01:14:35.116Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T01:17:27.616Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T01:17:28.460Z - error: "getComponent" is not defined in the Scene, it is only defined in normal nodes.
-    at cc_Scene.get (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/deprecated.js:669:20)
-    at HTMLElement.scene:query-animation-list (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14976)
-    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2283)
-    at EventEmitter.ipcRenderer.on.o (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4054)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2018-06-30T01:17:28.478Z - error: "getComponent" is not defined in the Scene, it is only defined in normal nodes.
-    at cc_Scene.get (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/deprecated.js:669:20)
-    at HTMLElement.scene:query-animation-list (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14976)
-    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2283)
-    at EventEmitter.ipcRenderer.on.o (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4054)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2018-06-30T01:17:29.761Z - error: "active" is not defined in the Scene, it is only defined in normal nodes.
-    at cc_Scene.get (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/deprecated.js:654:20)
-    at dumpNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/dump/get-node-dump.js:1:5340)
-    at Object.Editor.getNodeDump (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/dump/get-node-dump.js:1:6880)
-    at Object.dumpNode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:17640)
-    at HTMLElement.scene:query-node (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:6738)
-    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2283)
-    at EventEmitter.ipcRenderer.on.o (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4054)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2018-06-30T01:19:05.933Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T01:22:58.451Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T01:30:22.030Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T01:34:38.878Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:804470
-2018-06-30T01:42:48.555Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:812420
-2018-06-30T01:45:18.313Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T01:47:09.554Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T01:47:56.672Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:816708
-2018-06-30T01:47:56.685Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:816710
-2018-06-30T01:49:26.269Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGames/basketball/assets/game/script/player.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGames/basketball/assets/game/script/player.js: Unexpected token (89:4)
-  87 |         }
-  88 |         this.basket.x =  
-> 89 |     },
-     |     ^
-  90 | 
-  91 | 
-  92 |     onDestroy() {
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3367:23)
-    at Parser.pp$3.parseExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3306:19)
-2018-06-30T01:49:52.780Z - normal: Introduced global variable while editing: i
-2018-06-30T01:49:52.780Z - normal: Introduced global variable while editing: l
-2018-06-30T01:50:10.062Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T01:50:15.809Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T01:53:11.972Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T02:13:50.692Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T02:16:59.944Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T02:19:12.172Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T02:19:47.185Z - normal: Introduced global variable while editing: i
-2018-06-30T02:19:47.189Z - normal: Introduced global variable while editing: l
-2018-06-30T02:19:48.602Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T02:23:19.504Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T02:26:00.702Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T02:28:07.885Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T02:28:58.252Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T02:34:39.007Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:864910
-2018-06-30T02:40:45.443Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T02:41:31.712Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T02:43:18.947Z - normal: Introduced global variable while editing: i
-2018-06-30T02:43:18.949Z - normal: Introduced global variable while editing: l
-2018-06-30T02:44:23.698Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T03:06:18.168Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T03:11:02.183Z - normal: Introduced global variable while editing: i
-2018-06-30T03:11:02.186Z - normal: Introduced global variable while editing: l
-2018-06-30T03:15:24.961Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T03:16:56.321Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T03:19:57.895Z - normal: Introduced global variable while editing: i
-2018-06-30T03:19:57.901Z - normal: Introduced global variable while editing: l
-2018-06-30T03:20:00.003Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T03:40:41.531Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGames/basketball/assets/common/script/basic/gameManager.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGames/basketball/assets/common/script/basic/gameManager.js: Unexpected token (426:8)
-  424 | 
-  425 |             if(Game.PlayerManager.self)
-> 426 |         }
-      |         ^
-  427 |     },
-  428 | 
-  429 |     timeUpdate: function() {
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
-    at Parser.pp$3.parseExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3306:19)
-    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1906:19)
-2018-06-30T03:40:44.073Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T03:49:20.166Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T03:51:29.617Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T03:54:03.016Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T03:58:30.685Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T04:01:53.610Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T04:01:53.659Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T04:02:34.749Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T04:02:34.796Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T04:06:05.513Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T04:07:57.683Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T04:09:13.290Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T04:09:13.364Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T04:56:06.430Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T05:02:45.878Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T05:03:59.498Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
+2018-08-08T02:33:23.195Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-08T02:33:23.198Z - normal: checking language setting...
+2018-08-08T02:33:23.198Z - normal: Language: zh
+2018-08-08T02:33:24.002Z - success: protocol editor-framework registered
+2018-08-08T02:33:24.002Z - success: protocol app registered
+2018-08-08T02:33:24.003Z - success: protocol theme registered
+2018-08-08T02:33:24.003Z - success: protocol packages registered
+2018-08-08T02:33:24.003Z - success: protocol unpack registerred
+2018-08-08T02:33:24.003Z - success: protocol disable-commonjs registerred
+2018-08-08T02:33:25.566Z - normal: connected!
+2018-08-08T02:33:25.567Z - normal: Check project /Users/mac/MatchVsGithub/BasketBall/BasketBall
+2018-08-08T02:33:25.568Z - normal: Initializing Cocos2d
+2018-08-08T02:33:25.794Z - normal: Initializing Asset Database
+2018-08-08T02:33:25.832Z - success: protocol uuid registerred
+2018-08-08T02:33:25.833Z - success: protocol db registerred
+2018-08-08T02:33:25.833Z - success: protocol thumbnail registerred
+2018-08-08T02:33:25.833Z - normal: Loading editor/builtin packages
+2018-08-08T02:33:25.854Z - success: anysdk loaded
+2018-08-08T02:33:25.983Z - success: assets loaded
+2018-08-08T02:33:25.988Z - success: builder loaded
+2018-08-08T02:33:25.990Z - success: cocos-analytics loaded
+2018-08-08T02:33:25.995Z - success: console loaded
+2018-08-08T02:33:26.033Z - success: fb-instant-games loaded
+2018-08-08T02:33:26.039Z - success: hierarchy loaded
+2018-08-08T02:33:26.045Z - success: inspector loaded
+2018-08-08T02:33:26.047Z - success: keystore loaded
+2018-08-08T02:33:26.051Z - success: node-library loaded
+2018-08-08T02:33:26.053Z - success: package-asset loaded
+2018-08-08T02:33:26.055Z - success: preferences loaded
+2018-08-08T02:33:26.058Z - success: project-exporter loaded
+2018-08-08T02:33:26.076Z - success: project-importer loaded
+2018-08-08T02:33:26.080Z - success: project-settings loaded
+2018-08-08T02:33:26.085Z - success: ui-kit loaded
+2018-08-08T02:33:26.090Z - success: ui-grid loaded
+2018-08-08T02:33:26.096Z - success: scene loaded
+2018-08-08T02:33:26.098Z - success: sprite-editor loaded
+2018-08-08T02:33:26.103Z - success: store loaded
+2018-08-08T02:33:26.109Z - success: timeline loaded
+2018-08-08T02:33:26.110Z - normal: Loading builtin packages
+2018-08-08T02:33:26.114Z - success: asset-db-debugger loaded
+2018-08-08T02:33:26.115Z - success: color-picker loaded
+2018-08-08T02:33:26.121Z - success: package-manager loaded
+2018-08-08T02:33:26.122Z - success: qqplay-adapter loaded
+2018-08-08T02:33:26.129Z - success: sdkbox loaded
+2018-08-08T02:33:26.135Z - success: tester loaded
+2018-08-08T02:33:26.139Z - success: ui-kit-preview-extra loaded
+2018-08-08T02:33:26.143Z - success: ui-kit-preview loaded
+2018-08-08T02:33:26.147Z - success: ui-tree loaded
+2018-08-08T02:33:26.148Z - success: weapp-adapter loaded
+2018-08-08T02:33:27.287Z - normal: Initializing project /Users/mac/MatchVsGithub/BasketBall/BasketBall
+2018-08-08T02:33:27.289Z - normal: Loading packages
+2018-08-08T02:33:27.296Z - normal: Watching packages
+2018-08-08T02:33:27.413Z - normal: Run Application
+2018-08-08T02:33:32.451Z - success: preview server running at http://localhost:7459
+2018-08-08T02:33:38.863Z - normal: 1.9.3
+2018-08-08T02:33:39.547Z - failed: load script [matchvs.all] failed : Error: Cannot find module 'matchvs.all'
     at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
-    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator 1.9.3.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
     at Function.Module._load (module.js:418:25)
     at Module.require (module.js:498:17)
     at require (internal/module.js:20:19)
-    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
-    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:1:359
-    at __define (/Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:9:11)
-    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:81:13
-2018-06-30T05:04:00.149Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+    at Object.cc.require (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:1:362
+    at __define (/Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:17:25)
+    at /Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:37:13
+2018-08-08T02:33:39.918Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
 
-2018-06-30T05:07:41.700Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
+2018-08-08T02:38:47.935Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-08-08T02:39:18.631Z - failed: load script [matchvs.all] failed : Error: Cannot find module 'matchvs.all'
     at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
-    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator 1.9.3.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
     at Function.Module._load (module.js:418:25)
     at Module.require (module.js:498:17)
     at require (internal/module.js:20:19)
-    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
-    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:1:359
-    at __define (/Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:9:11)
-    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:81:13
-2018-06-30T05:07:42.122Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+    at Object.cc.require (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:1:362
+    at __define (/Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:17:25)
+    at /Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:37:13
+2018-08-08T02:39:18.812Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
 
-2018-06-30T05:09:11.213Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
+2018-08-08T02:40:21.326Z - failed: load script [matchvs.all] failed : Error: Cannot find module 'matchvs.all'
     at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
-    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator 1.9.3.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
     at Function.Module._load (module.js:418:25)
     at Module.require (module.js:498:17)
     at require (internal/module.js:20:19)
-    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
-    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:1:359
-    at __define (/Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:9:11)
-    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:81:13
-2018-06-30T05:09:11.515Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+    at Object.cc.require (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:1:362
+    at __define (/Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:17:25)
+    at /Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:37:13
+2018-08-08T02:40:21.493Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
 
-2018-06-30T05:46:17.779Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
+2018-08-08T02:41:05.947Z - failed: load script [matchvs.all] failed : Error: Cannot find module 'matchvs.all'
     at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
-    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator 1.9.3.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
     at Function.Module._load (module.js:418:25)
     at Module.require (module.js:498:17)
     at require (internal/module.js:20:19)
-    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
-    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:1:359
-    at __define (/Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:9:11)
-    at /Users/mac/MatchVsGames/basketball/temp/quick-scripts/assets/common/script/uiVsResult.js:81:13
-2018-06-30T05:46:18.227Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+    at Object.cc.require (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:1:362
+    at __define (/Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:17:25)
+    at /Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:37:13
+2018-08-08T02:41:06.110Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
 
-2018-06-30T05:48:31.788Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-08-08T02:42:47.754Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-08T02:42:47.756Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-08T02:42:48.285Z - normal: Initializing...
 
-2018-06-30T05:48:36.688Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T06:13:22.357Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-08-08T02:42:48.297Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
 
-2018-06-30T06:13:22.419Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T06:20:39.732Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-08-08T02:42:48.323Z - normal: IDE server has started, listening on http://127.0.0.1:45837
 
-2018-06-30T06:20:39.818Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T06:21:26.753Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T06:23:04.745Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-08-08T02:42:48.323Z - normal: initialization finished
 
-2018-06-30T06:23:04.778Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T06:24:30.621Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-08-08T02:42:48.416Z - error: StatusCodeError: 400 - "{\"code\":400002,\"error\":\"请检查是否 project.config.json 是否存在及是否有效\"}"
 
-2018-06-30T06:24:33.449Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T06:26:34.278Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T06:26:34.345Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T06:27:34.907Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T06:27:34.962Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T06:31:14.766Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T06:31:14.803Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T06:40:03.202Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T06:40:03.254Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T06:54:22.746Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T06:54:22.808Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T07:03:34.150Z - normal: Introduced global variable while editing: i
-2018-06-30T07:03:34.175Z - normal: Introduced global variable while editing: l
-2018-06-30T07:03:37.880Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T07:03:37.963Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T07:09:46.568Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T07:09:51.413Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T07:17:11.712Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T07:17:30.551Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T07:19:14.016Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T07:21:16.365Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T07:21:16.419Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T07:28:10.430Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T07:38:48.109Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T07:38:48.819Z - error: TypeError: Cannot read property 'getComponent' of null
-    at HTMLElement.scene:query-animation-list (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14976)
-    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2283)
-    at EventEmitter.ipcRenderer.on.o (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4054)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2018-06-30T07:38:48.835Z - error: TypeError: Cannot read property 'getComponent' of null
-    at HTMLElement.scene:query-animation-list (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:14976)
-    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2283)
-    at EventEmitter.ipcRenderer.on.o (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4054)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2018-06-30T07:38:49.813Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T07:41:10.539Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T07:43:17.560Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T07:48:17.846Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T07:49:58.833Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T07:51:00.856Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1123031
-2018-06-30T07:59:57.009Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T08:00:06.879Z - normal: Start building with options : {
+    at Socket.<anonymous> (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/core/wechat-game.js:1:1302)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+2018-08-08T02:42:53.374Z - normal: Start building with options : {
   "androidStudio": true,
   "apiLevel": "",
   "appABIs": [],
   "appKey": "",
   "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
+  "buildPath": "/Users/mac/MatchVsGithub/BasketBall/BasketBall/build",
   "debug": false,
-  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
+  "dest": "/Users/mac/MatchVsGithub/BasketBall/BasketBall/build/wechatgame",
   "encryptJs": true,
   "excludeScenes": [],
   "excludedModules": [],
@@ -509,783 +196,285 @@ Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
   },
   "xxteaKey": "a15e5bec-8ac1-4f",
   "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/basketball",
+  "project": "/Users/mac/MatchVsGithub/BasketBall/BasketBall",
   "projectName": "basketball",
   "debugBuildWorker": false
 }
-2018-06-30T08:00:06.895Z - normal: Building /Users/mac/MatchVsGames/basketball
-2018-06-30T08:00:06.895Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
-2018-06-30T08:00:07.396Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
-2018-06-30T08:00:18.602Z - normal: Compiled project javascript file successfully
-2018-06-30T08:00:18.603Z - normal: Start building assets
-2018-06-30T08:00:18.603Z - normal: Start spawn build-worker
-2018-06-30T08:00:19.352Z - normal: Finish spawn build-worker
-2018-06-30T08:00:19.352Z - normal: Start init build-worker
-2018-06-30T08:00:21.615Z - normal: 1.9.2
-2018-06-30T08:00:21.957Z - normal: Finish init build-worker
-2018-06-30T08:00:21.957Z - normal: Start build-assets in worker
-2018-06-30T08:00:22.466Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+2018-08-08T02:42:53.385Z - normal: Building /Users/mac/MatchVsGithub/BasketBall/BasketBall
+2018-08-08T02:42:53.386Z - normal: Destination /Users/mac/MatchVsGithub/BasketBall/BasketBall/build/wechatgame
+2018-08-08T02:42:53.777Z - normal: Delete /Users/mac/MatchVsGithub/BasketBall/BasketBall/build/wechatgame/**/*
+2018-08-08T02:43:57.041Z - normal: Compiled project javascript file successfully
+2018-08-08T02:43:57.043Z - error: Build Failed: Compile error: Cannot require 'matchvs.all', module not found, please remove file extension and retry. ( just "require('matchvs');"
+    at Readable.<anonymous> (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/page/compile-worker.js:1:1514)
+    at emitOne (events.js:96:13)
+    at Readable.emit (events.js:191:7)
+    at Labeled.<anonymous> (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/read-only-stream/index.js:28:44)
+    at emitOne (events.js:96:13)
+    at Labeled.emit (events.js:191:7)
+    at Labeled.<anonymous> (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/stream-splicer/index.js:130:18)
+    at emitOne (events.js:96:13)
+    at Labeled.emit (events.js:191:7)
+    at Deps.<anonymous> (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/stream-splicer/index.js:130:18)
+    at Async.series.r (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/core/builder.js:1:3101)
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:726:13
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:264:21
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:723:17
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at Gulp.doneCallback (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/core/gulp-build.js:1:21071)
+    at Gulp.Orchestrator.stop (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/orchestrator/index.js:150:9)
+2018-08-08T02:56:06.631Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGithub/BasketBall/BasketBall/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGithub/BasketBall/BasketBall/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "basketball",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "landscape",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
+    "appid": "wx793199d0ca521154",
+    "orientation": "landscape"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGithub/BasketBall/BasketBall",
+  "projectName": "basketball",
+  "debugBuildWorker": false
+}
+2018-08-08T02:56:06.643Z - normal: Building /Users/mac/MatchVsGithub/BasketBall/BasketBall
+2018-08-08T02:56:06.644Z - normal: Destination /Users/mac/MatchVsGithub/BasketBall/BasketBall/build/wechatgame
+2018-08-08T02:56:06.646Z - normal: Delete /Users/mac/MatchVsGithub/BasketBall/BasketBall/build/wechatgame/**/*
+2018-08-08T02:56:08.601Z - normal: Compiled project javascript file successfully
+2018-08-08T02:56:08.602Z - error: Build Failed: Compile error: Cannot require 'matchvs.all', module not found, please remove file extension and retry. ( just "require('matchvs');"
+    at Readable.<anonymous> (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/page/compile-worker.js:1:1514)
+    at emitOne (events.js:96:13)
+    at Readable.emit (events.js:191:7)
+    at Labeled.<anonymous> (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/read-only-stream/index.js:28:44)
+    at emitOne (events.js:96:13)
+    at Labeled.emit (events.js:191:7)
+    at Labeled.<anonymous> (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/stream-splicer/index.js:130:18)
+    at emitOne (events.js:96:13)
+    at Labeled.emit (events.js:191:7)
+    at Deps.<anonymous> (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/stream-splicer/index.js:130:18)
+    at Async.series.r (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/core/builder.js:1:3101)
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:726:13
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:264:21
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:723:17
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at Gulp.doneCallback (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/core/gulp-build.js:1:21071)
+    at Gulp.Orchestrator.stop (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/orchestrator/index.js:150:9)
+2018-08-08T02:56:34.780Z - failed: load script [matchvs.all] failed : Error: Cannot find module 'matchvs.all'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator 1.9.3.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:1:362
+    at __define (/Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:17:25)
+    at /Users/mac/MatchVsGithub/BasketBall/BasketBall/temp/quick-scripts/assets/common/script/basic/Matchvs.js:37:13
+2018-08-08T02:56:34.927Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-08-08T02:57:05.670Z - success: plugin-matchvs loaded
+2018-08-08T02:57:28.741Z - error: Can not find import path [/Users/mac/MatchVsGithub/BasketBall/BasketBall/library/imports/f7/f772d4ee-8495-4ea8-874e-82335e1613d7.js]
+    at Async.each (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:5125)
+    at /Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:209:22)
+    at Object._compileScripts (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:4988)
+    at complete (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8460:25)
+    at Timeout.delayed [as _onTimeout] (/Applications/CocosCreator 1.9.3.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8470:11)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+2018-08-08T02:57:31.510Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-08-08T02:57:31.718Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-08-08T02:59:24.655Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGithub/BasketBall/BasketBall/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGithub/BasketBall/BasketBall/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "basketball",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "landscape",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
+    "appid": "wx793199d0ca521154",
+    "orientation": "landscape"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGithub/BasketBall/BasketBall",
+  "projectName": "basketball",
+  "debugBuildWorker": false
+}
+2018-08-08T02:59:24.666Z - normal: Building /Users/mac/MatchVsGithub/BasketBall/BasketBall
+2018-08-08T02:59:24.666Z - normal: Destination /Users/mac/MatchVsGithub/BasketBall/BasketBall/build/wechatgame
+2018-08-08T02:59:24.668Z - normal: Delete /Users/mac/MatchVsGithub/BasketBall/BasketBall/build/wechatgame/**/*
+2018-08-08T02:59:33.427Z - normal: Compiled project javascript file successfully
+2018-08-08T02:59:33.427Z - normal: Start building assets
+2018-08-08T02:59:33.427Z - normal: Start spawn build-worker
+2018-08-08T02:59:34.056Z - normal: Finish spawn build-worker
+2018-08-08T02:59:34.056Z - normal: Start init build-worker
+2018-08-08T02:59:36.039Z - normal: 1.9.3
+2018-08-08T02:59:36.326Z - normal: Finish init build-worker
+2018-08-08T02:59:36.326Z - normal: Start build-assets in worker
+2018-08-08T02:59:36.797Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Used in Component: "cc.Sprite"
 uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-2018-06-30T08:00:23.074Z - normal: Finish build-assets in worker
-2018-06-30T08:00:23.079Z - normal: Finish building assets
-2018-06-30T08:00:23.104Z - normal: Start building raw assets
-2018-06-30T08:00:23.106Z - normal: Start building plugin scripts
-2018-06-30T08:00:25.464Z - normal: Finish building plugin scripts
-2018-06-30T08:00:25.657Z - normal: Finish building raw assets
-2018-06-30T08:00:25.662Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T08:00:26.914Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
-2018-06-30T08:01:37.077Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T08:01:37.079Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T08:01:37.476Z - normal: Initializing...
+2018-08-08T02:59:36.909Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching2v2/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-08-08T02:59:37.379Z - normal: Finish build-assets in worker
+2018-08-08T02:59:37.382Z - normal: Finish building assets
+2018-08-08T02:59:37.413Z - normal: Start building raw assets
+2018-08-08T02:59:37.415Z - normal: Start building plugin scripts
+2018-08-08T02:59:39.840Z - normal: Finish building plugin scripts
+2018-08-08T02:59:39.934Z - normal: Finish building raw assets
+2018-08-08T02:59:39.938Z - normal: Generating main.js from /Applications/CocosCreator 1.9.3.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-08T02:59:40.999Z - normal: Built to "/Users/mac/MatchVsGithub/BasketBall/BasketBall/build/wechatgame" successfully
+2018-08-08T03:00:16.570Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-08T03:00:16.570Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-08T03:00:16.977Z - normal: Initializing...
 
-2018-06-30T08:01:37.484Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+2018-08-08T03:00:16.984Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
 
-2018-06-30T08:01:37.511Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-
-2018-06-30T08:01:37.511Z - normal: initialization finished
-
-2018-06-30T08:01:38.128Z - normal: open IDE success
-
-2018-06-30T08:04:18.784Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T08:04:18.786Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T08:04:19.184Z - normal: Initializing...
-
-2018-06-30T08:04:19.193Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T08:04:19.212Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+2018-08-08T03:00:17.001Z - normal: IDE server has started, listening on http://127.0.0.1:45837
 initialization finished
 
-2018-06-30T08:04:19.684Z - normal: open IDE success
+2018-08-08T03:00:19.108Z - normal: open IDE success
 
-2018-06-30T08:11:16.401Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T08:14:16.521Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T08:16:43.475Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-08-08T03:02:49.989Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-08T03:02:49.991Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-08T03:02:50.316Z - normal: Initializing...
 
-2018-06-30T08:16:43.573Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T08:17:24.311Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+2018-08-08T03:02:50.322Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
 
-2018-06-30T08:17:24.349Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T08:18:41.426Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "117c424d-e9a8-4789-bdd9-05fb745695e1"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "basketball",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "landscape",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
-    "appid": "wx793199d0ca521154",
-    "orientation": "landscape"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/basketball",
-  "projectName": "basketball",
-  "debugBuildWorker": false
-}
-2018-06-30T08:18:41.439Z - normal: Building /Users/mac/MatchVsGames/basketball
-2018-06-30T08:18:41.439Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
-2018-06-30T08:18:41.440Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
-2018-06-30T08:18:50.621Z - normal: Compiled project javascript file successfully
-2018-06-30T08:18:50.622Z - normal: Start building assets
-2018-06-30T08:18:50.622Z - normal: Start spawn build-worker
-2018-06-30T08:18:51.252Z - normal: Finish spawn build-worker
-2018-06-30T08:18:51.252Z - normal: Start init build-worker
-2018-06-30T08:18:53.105Z - normal: 1.9.2
-2018-06-30T08:18:53.405Z - normal: Finish init build-worker
-2018-06-30T08:18:53.405Z - normal: Start build-assets in worker
-2018-06-30T08:18:53.875Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Used in Component: "cc.Sprite"
-uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-2018-06-30T08:18:53.974Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiMatching2v2/play-bg"
-Used in Component: "cc.Sprite"
-uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-2018-06-30T08:18:54.437Z - normal: Finish build-assets in worker
-2018-06-30T08:18:54.441Z - normal: Finish building assets
-2018-06-30T08:18:54.467Z - normal: Start building raw assets
-2018-06-30T08:18:54.467Z - normal: Start building plugin scripts
-2018-06-30T08:18:56.118Z - normal: Finish building plugin scripts
-2018-06-30T08:18:56.192Z - normal: Finish building raw assets
-2018-06-30T08:18:56.196Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T08:18:57.540Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
-2018-06-30T08:20:53.506Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T08:20:53.507Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T08:20:53.931Z - normal: Initializing...
-
-2018-06-30T08:20:53.943Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T08:20:53.963Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+2018-08-08T03:02:50.339Z - normal: IDE server has started, listening on http://127.0.0.1:45837
 initialization finished
 
-2018-06-30T08:20:54.176Z - normal: open IDE success
+2018-08-08T03:03:02.446Z - normal: open IDE success
 
-2018-06-30T08:22:20.052Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T08:35:24.062Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "117c424d-e9a8-4789-bdd9-05fb745695e1"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "basketball",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "landscape",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
-    "appid": "wx793199d0ca521154",
-    "orientation": "landscape"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/basketball",
-  "projectName": "basketball",
-  "debugBuildWorker": false
-}
-2018-06-30T08:35:24.070Z - normal: Building /Users/mac/MatchVsGames/basketball
-2018-06-30T08:35:24.070Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
-2018-06-30T08:35:24.071Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
-2018-06-30T08:35:34.122Z - normal: Compiled project javascript file successfully
-2018-06-30T08:35:34.123Z - normal: Start building assets
-2018-06-30T08:35:34.123Z - normal: Start spawn build-worker
-2018-06-30T08:35:34.769Z - normal: Finish spawn build-worker
-2018-06-30T08:35:34.769Z - normal: Start init build-worker
-2018-06-30T08:35:36.885Z - normal: 1.9.2
-2018-06-30T08:35:37.208Z - normal: Finish init build-worker
-2018-06-30T08:35:37.208Z - normal: Start build-assets in worker
-2018-06-30T08:35:37.960Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Used in Component: "cc.Sprite"
-uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-2018-06-30T08:35:37.982Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiMatching2v2/play-bg"
-Used in Component: "cc.Sprite"
-uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-2018-06-30T08:35:38.629Z - normal: Finish build-assets in worker
-2018-06-30T08:35:38.633Z - normal: Finish building assets
-2018-06-30T08:35:38.662Z - normal: Start building raw assets
-2018-06-30T08:35:38.663Z - normal: Start building plugin scripts
-2018-06-30T08:35:40.986Z - normal: Finish building plugin scripts
-2018-06-30T08:35:41.090Z - normal: Finish building raw assets
-2018-06-30T08:35:41.095Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T08:35:42.609Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
-2018-06-30T08:38:22.619Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T08:38:22.620Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T08:38:23.021Z - normal: Initializing...
+2018-08-08T03:04:35.074Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-08T03:04:35.076Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-08T03:04:35.728Z - normal: Initializing...
 
-2018-06-30T08:38:23.028Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+2018-08-08T03:04:35.772Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
 
-2018-06-30T08:38:23.048Z - normal: IDE server has started, listening on http://127.0.0.1:46705
+2018-08-08T03:04:35.806Z - normal: IDE server has started, listening on http://127.0.0.1:45837
 initialization finished
 
-2018-06-30T08:38:23.249Z - normal: open IDE success
+2018-08-08T03:04:37.526Z - normal: open IDE success
 
-2018-06-30T08:42:53.687Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "117c424d-e9a8-4789-bdd9-05fb745695e1"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "basketball",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "landscape",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
-    "appid": "wx793199d0ca521154",
-    "orientation": "landscape"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/basketball",
-  "projectName": "basketball",
-  "debugBuildWorker": false
-}
-2018-06-30T08:42:53.696Z - normal: Building /Users/mac/MatchVsGames/basketball
-2018-06-30T08:42:53.696Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
-2018-06-30T08:42:53.697Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
-2018-06-30T08:43:02.836Z - normal: Compiled project javascript file successfully
-2018-06-30T08:43:02.836Z - normal: Start building assets
-2018-06-30T08:43:02.836Z - normal: Start spawn build-worker
-2018-06-30T08:43:03.440Z - normal: Finish spawn build-worker
-2018-06-30T08:43:03.440Z - normal: Start init build-worker
-2018-06-30T08:43:05.270Z - normal: 1.9.2
-2018-06-30T08:43:05.573Z - normal: Finish init build-worker
-2018-06-30T08:43:05.573Z - normal: Start build-assets in worker
-2018-06-30T08:43:06.087Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Used in Component: "cc.Sprite"
-uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-2018-06-30T08:43:06.102Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiMatching2v2/play-bg"
-Used in Component: "cc.Sprite"
-uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-2018-06-30T08:43:06.586Z - normal: Finish build-assets in worker
-2018-06-30T08:43:06.590Z - normal: Finish building assets
-2018-06-30T08:43:06.616Z - normal: Start building raw assets
-2018-06-30T08:43:06.617Z - normal: Start building plugin scripts
-2018-06-30T08:43:08.294Z - normal: Finish building plugin scripts
-2018-06-30T08:43:08.372Z - normal: Finish building raw assets
-2018-06-30T08:43:08.376Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T08:43:09.398Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
-2018-06-30T08:43:21.727Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T08:43:21.728Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T08:43:22.147Z - normal: Initializing...
+2018-08-08T03:07:24.392Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-08-08T03:07:24.394Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-08-08T03:07:24.894Z - normal: Initializing...
 
-2018-06-30T08:43:22.158Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+2018-08-08T03:07:24.904Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
 
-2018-06-30T08:43:22.174Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-initialization finished
+2018-08-08T03:07:24.924Z - normal: IDE server has started, listening on http://127.0.0.1:45837
 
-2018-06-30T08:43:22.501Z - normal: open IDE success
+2018-08-08T03:07:24.924Z - normal: initialization finished
 
-2018-06-30T08:59:33.226Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "117c424d-e9a8-4789-bdd9-05fb745695e1"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "basketball",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "landscape",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
-    "appid": "wx793199d0ca521154",
-    "orientation": "landscape"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/basketball",
-  "projectName": "basketball",
-  "debugBuildWorker": false
-}
-2018-06-30T08:59:33.238Z - normal: Building /Users/mac/MatchVsGames/basketball
-2018-06-30T08:59:33.238Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
-2018-06-30T08:59:33.240Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
-2018-06-30T08:59:40.715Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T08:59:43.150Z - normal: Compiled project javascript file successfully
-2018-06-30T08:59:43.151Z - normal: Start building assets
-2018-06-30T08:59:43.151Z - normal: Start spawn build-worker
-2018-06-30T08:59:43.927Z - normal: Finish spawn build-worker
-2018-06-30T08:59:43.927Z - normal: Start init build-worker
-2018-06-30T08:59:46.005Z - normal: 1.9.2
-2018-06-30T08:59:46.376Z - normal: Finish init build-worker
-2018-06-30T08:59:46.376Z - normal: Start build-assets in worker
-2018-06-30T08:59:46.940Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Used in Component: "cc.Sprite"
-uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-2018-06-30T08:59:46.964Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiMatching2v2/play-bg"
-Used in Component: "cc.Sprite"
-uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-2018-06-30T08:59:47.411Z - normal: Finish build-assets in worker
-2018-06-30T08:59:47.416Z - normal: Finish building assets
-2018-06-30T08:59:47.443Z - normal: Start building raw assets
-2018-06-30T08:59:47.444Z - normal: Start building plugin scripts
-2018-06-30T08:59:49.217Z - normal: Finish building plugin scripts
-2018-06-30T08:59:49.298Z - normal: Finish building raw assets
-2018-06-30T08:59:49.302Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T08:59:50.389Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
-2018-06-30T08:59:55.192Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T08:59:55.196Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T08:59:55.738Z - normal: Initializing...
+2018-08-08T03:07:25.113Z - normal: open IDE success
 
-2018-06-30T08:59:55.745Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T08:59:55.770Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-
-2018-06-30T08:59:55.770Z - normal: initialization finished
-
-2018-06-30T08:59:55.953Z - normal: open IDE success
-
-2018-06-30T09:04:41.773Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T09:04:41.934Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T09:07:48.785Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T09:09:50.844Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T09:12:19.961Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "117c424d-e9a8-4789-bdd9-05fb745695e1"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "basketball",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "landscape",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
-    "appid": "wx793199d0ca521154",
-    "orientation": "landscape"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/basketball",
-  "projectName": "basketball",
-  "debugBuildWorker": false
-}
-2018-06-30T09:12:19.969Z - normal: Building /Users/mac/MatchVsGames/basketball
-2018-06-30T09:12:19.969Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
-2018-06-30T09:12:19.970Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
-2018-06-30T09:12:29.350Z - normal: Compiled project javascript file successfully
-2018-06-30T09:12:29.350Z - normal: Start building assets
-2018-06-30T09:12:29.350Z - normal: Start spawn build-worker
-2018-06-30T09:12:29.968Z - normal: Finish spawn build-worker
-2018-06-30T09:12:29.969Z - normal: Start init build-worker
-2018-06-30T09:12:31.925Z - normal: 1.9.2
-2018-06-30T09:12:32.211Z - normal: Finish init build-worker
-2018-06-30T09:12:32.212Z - normal: Start build-assets in worker
-2018-06-30T09:12:32.721Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Used in Component: "cc.Sprite"
-uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-2018-06-30T09:12:32.747Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiMatching2v2/play-bg"
-Used in Component: "cc.Sprite"
-uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-2018-06-30T09:12:33.159Z - normal: Finish build-assets in worker
-2018-06-30T09:12:33.164Z - normal: Finish building assets
-2018-06-30T09:12:33.191Z - normal: Start building raw assets
-2018-06-30T09:12:33.192Z - normal: Start building plugin scripts
-2018-06-30T09:12:35.025Z - normal: Finish building plugin scripts
-2018-06-30T09:12:35.111Z - normal: Finish building raw assets
-2018-06-30T09:12:35.118Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T09:12:36.162Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
-2018-06-30T09:14:38.851Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T09:14:38.853Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T09:14:39.287Z - normal: Initializing...
-
-2018-06-30T09:14:39.294Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T09:14:39.315Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-initialization finished
-
-2018-06-30T09:14:40.081Z - normal: open IDE success
-
-2018-06-30T09:15:20.964Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T09:15:21.915Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "117c424d-e9a8-4789-bdd9-05fb745695e1"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "basketball",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "landscape",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
-    "appid": "wx793199d0ca521154",
-    "orientation": "landscape"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/basketball",
-  "projectName": "basketball",
-  "debugBuildWorker": false
-}
-2018-06-30T09:15:21.927Z - normal: Building /Users/mac/MatchVsGames/basketball
-2018-06-30T09:15:21.928Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
-2018-06-30T09:15:21.928Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
-2018-06-30T09:15:36.539Z - normal: Compiled project javascript file successfully
-2018-06-30T09:15:36.540Z - normal: Start building assets
-2018-06-30T09:15:36.540Z - normal: Start spawn build-worker
-2018-06-30T09:15:37.255Z - normal: Finish spawn build-worker
-2018-06-30T09:15:37.255Z - normal: Start init build-worker
-2018-06-30T09:15:39.557Z - normal: 1.9.2
-2018-06-30T09:15:39.878Z - normal: Finish init build-worker
-2018-06-30T09:15:39.878Z - normal: Start build-assets in worker
-2018-06-30T09:15:40.474Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Used in Component: "cc.Sprite"
-uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-2018-06-30T09:15:40.654Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiMatching2v2/play-bg"
-Used in Component: "cc.Sprite"
-uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-2018-06-30T09:15:41.219Z - normal: Finish build-assets in worker
-2018-06-30T09:15:41.223Z - normal: Finish building assets
-2018-06-30T09:15:41.250Z - normal: Start building raw assets
-2018-06-30T09:15:41.251Z - normal: Start building plugin scripts
-2018-06-30T09:15:43.459Z - normal: Finish building plugin scripts
-2018-06-30T09:15:43.571Z - normal: Finish building raw assets
-2018-06-30T09:15:43.575Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T09:15:44.689Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
-2018-06-30T09:15:56.666Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T09:15:56.668Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T09:15:57.350Z - normal: Initializing...
-
-2018-06-30T09:15:57.368Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T09:15:57.412Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-
-2018-06-30T09:15:57.413Z - normal: initialization finished
-
-2018-06-30T09:15:57.724Z - normal: open IDE success
-
-2018-06-30T09:21:07.525Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-
-2018-06-30T09:21:28.131Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/mac/MatchVsGames/basketball/build",
-  "debug": false,
-  "dest": "/Users/mac/MatchVsGames/basketball/build/wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.DuckHunt",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "79146b76-f001-46c3-9f85-5e013f21b436",
-    "117c424d-e9a8-4789-bdd9-05fb745695e1"
-  ],
-  "sourceMaps": false,
-  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
-  "template": "link",
-  "title": "basketball",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "landscape",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/basketball",
-    "appid": "wx793199d0ca521154",
-    "orientation": "landscape"
-  },
-  "xxteaKey": "a15e5bec-8ac1-4f",
-  "zipCompressJs": true,
-  "project": "/Users/mac/MatchVsGames/basketball",
-  "projectName": "basketball",
-  "debugBuildWorker": false
-}
-2018-06-30T09:21:28.137Z - normal: Building /Users/mac/MatchVsGames/basketball
-2018-06-30T09:21:28.137Z - normal: Destination /Users/mac/MatchVsGames/basketball/build/wechatgame
-2018-06-30T09:21:28.138Z - normal: Delete /Users/mac/MatchVsGames/basketball/build/wechatgame/**/*
-2018-06-30T09:21:37.269Z - normal: Compiled project javascript file successfully
-2018-06-30T09:21:37.270Z - normal: Start building assets
-2018-06-30T09:21:37.270Z - normal: Start spawn build-worker
-2018-06-30T09:21:37.891Z - normal: Finish spawn build-worker
-2018-06-30T09:21:37.891Z - normal: Start init build-worker
-2018-06-30T09:21:39.716Z - normal: 1.9.2
-2018-06-30T09:21:40.017Z - normal: Finish init build-worker
-2018-06-30T09:21:40.017Z - normal: Start build-assets in worker
-2018-06-30T09:21:40.585Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Used in Component: "cc.Sprite"
-uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
-2018-06-30T09:21:40.599Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching2v2.prefab" is not found, it may have been deleted. Detailed information:
-Node path: "uiMatching2v2/play-bg"
-Used in Component: "cc.Sprite"
-uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
-2018-06-30T09:21:41.055Z - normal: Finish build-assets in worker
-2018-06-30T09:21:41.060Z - normal: Finish building assets
-2018-06-30T09:21:41.086Z - normal: Start building raw assets
-2018-06-30T09:21:41.086Z - normal: Start building plugin scripts
-2018-06-30T09:21:42.886Z - normal: Finish building plugin scripts
-2018-06-30T09:21:42.957Z - normal: Finish building raw assets
-2018-06-30T09:21:42.961Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-30T09:21:43.923Z - normal: Built to "/Users/mac/MatchVsGames/basketball/build/wechatgame" successfully
-2018-06-30T09:21:56.365Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
-2018-06-30T09:21:56.366Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-06-30T09:21:56.759Z - normal: Initializing...
-
-2018-06-30T09:21:56.767Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
-
-2018-06-30T09:21:56.791Z - normal: IDE server has started, listening on http://127.0.0.1:46705
-
-2018-06-30T09:21:56.791Z - normal: initialization finished
-
-2018-06-30T09:21:59.214Z - normal: open IDE success
-
-2018-06-30T09:25:13.654Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T09:26:03.036Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-06-30T09:27:11.450Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-08-08T03:07:56.307Z - info: shutdown preview server
