@@ -115,11 +115,26 @@ cc.Class({
         mvs.response.sendEventNotify = this.sendEventNotify.bind(this);
         mvs.response.frameUpdate = this.frameUpdate.bind(this);
         mvs.response.setFrameSyncResponse = this.setFrameSyncResponse.bind(this);
+        mvs.response.networkStateNotify = this.networkStateNotify.bind(this);
 
         var result = mvs.engine.init(mvs.response, GLB.channel, GLB.platform, GLB.gameId);
         if (result !== 0) {
             console.log('初始化失败,错误码:' + result);
         }
+    },
+
+    networkStateNotify: function(netNotify) {
+        console.log("netNotify");
+        console.log("netNotify.owner:" + netNotify.owner);
+        if (netNotify.userID !== GLB.userInfo.id) {
+            GLB.isRoomOwner = true;
+        }
+        console.log("玩家：" + netNotify.userID + " state:" + netNotify.state);
+        if (netNotify.userID !== GLB.userInfo.id) {
+            this.isRivalLeave = true;
+        }
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify);
+        this.gameOver();
     },
 
     kickPlayerNotify: function(kickPlayerNotify) {
