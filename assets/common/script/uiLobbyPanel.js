@@ -37,6 +37,8 @@ cc.Class({
     },
 
     rank: function() {
+        Game.GameManager.blockInput();
+
         if (!Game.GameManager.network.isConnected()) {
             Game.GameManager.network.connect(GLB.IP, GLB.PORT, function() {
                     Game.GameManager.network.send("connector.entryHandler.login", {
@@ -73,6 +75,8 @@ cc.Class({
     },
 
     randomRoom: function() {
+        Game.GameManager.blockInput();
+
         GLB.matchType = GLB.RANDOM_MATCH; // 修改匹配方式为随机匹配
         console.log('开始随机匹配');
         if (GLB.gameType === GLB.COOPERATION) {

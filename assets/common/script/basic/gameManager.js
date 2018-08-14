@@ -1,6 +1,14 @@
 var mvs = require("Matchvs");
 cc.Class({
     extends: cc.Component,
+
+    blockInput() {
+        Game.GameManager.getComponent(cc.BlockInputEvents).enabled = true;
+        setTimeout(function() {
+            Game.GameManager.node.getComponent(cc.BlockInputEvents).enabled = false;
+        }, 500);
+    },
+
     onLoad() {
         Game.GameManager = this;
         cc.game.addPersistRootNode(this.node);
@@ -121,6 +129,8 @@ cc.Class({
         if (result !== 0) {
             console.log('初始化失败,错误码:' + result);
         }
+        
+        Game.GameManager.blockInput();
     },
 
     networkStateNotify: function(netNotify) {
