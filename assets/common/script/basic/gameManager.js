@@ -61,8 +61,8 @@ cc.Class({
 
     gameOver: function() {
         // 打开结算界面--
-        console.log("游戏结束");
-        if (Game.GameManager.gameState !== GameState.Over) {
+        var gamePanel = uiFunc.findUI("uiGamePanel");
+        if (gamePanel && Game.GameManager.gameState !== GameState.Over) {
             Game.GameManager.gameState = GameState.Over;
             this.readyCnt = 0;
             setTimeout(function() {
@@ -143,7 +143,7 @@ cc.Class({
         if (netNotify.userID !== GLB.userInfo.id) {
             this.isRivalLeave = true;
         }
-        clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify);
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify,netNotify);
         this.gameOver();
     },
 
