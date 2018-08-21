@@ -148,6 +148,7 @@ cc.Class({
     },
 
     onDestroy() {
+        cc.audioEngine.stop(this.bgmId);
         clientEvent.off(clientEvent.eventType.score, this.scoreEvent, this);
         clientEvent.off(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
         clientEvent.off(clientEvent.eventType.roundStart, this.roundStart, this);
