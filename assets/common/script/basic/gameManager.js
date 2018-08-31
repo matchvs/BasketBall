@@ -361,13 +361,6 @@ cc.Class({
                 this.timeUpdate();
             }.bind(this), 2000);
             clientEvent.dispatch(clientEvent.eventType.roundStart);
-
-            if (GLB.syncFrame === true && GLB.isRoomOwner === true) {
-                var result = mvs.engine.setFrameSync(GLB.FRAME_RATE);
-                if (result !== 0) {
-                    console.log('设置帧同步率失败,错误码:' + result);
-                }
-            }
         }
     },
 
