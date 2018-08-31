@@ -441,11 +441,14 @@ cc.Class({
     },
 
     timeUpdate: function() {
-        var self = this;
-        var id = setInterval(() => {
+        clearInterval(Game.GameManager.timeId);
+        Game.GameManager.timeId = setInterval(function() {
+            if (!this || !this.node) {
+                return;
+            }
             if (GLB.isRoomOwner) {
-                if (self.gameTime <= 0 || this.gameState === GameState.Over) {
-                    clearInterval(id);
+                if (Game.GameManager.gameTime <= 0 || Game.GameManager.gameState === GameState.Over) {
+                    clearInterval(Game.GameManager.timeId);
                     Game.GameManager.sendEventEx({action: GLB.GAME_OVER_EVENT});
                 } else {
                     mvs.engine.sendFrameEvent(JSON.stringify({
@@ -453,11 +456,11 @@ cc.Class({
                     }));
                 }
             } else {
-                if (self.gameTime <= 0 || this.gameState === GameState.Over) {
-                    clearInterval(id);
+                if (Game.GameManager.gameTime <= 0 || Game.GameManager.gameState === GameState.Over) {
+                    clearInterval(Game.GameManager.timeId);
                 }
             }
-        }, 1000);
+        }.bind(this), 1000);
     },
 
     getRankDataListener: function() {
