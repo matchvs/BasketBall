@@ -28,7 +28,7 @@ cc.Class({
         this.network.chooseNetworkMode();
         this.getRankDataListener();
         this.findPlayerByAccountListener();
-        if(window.wx) {
+        if (window.wx) {
             wx.login({
                 success: function() {
                     wx.getUserInfo({
@@ -129,7 +129,7 @@ cc.Class({
         if (result !== 0) {
             console.log('初始化失败,错误码:' + result);
         }
-        
+
         Game.GameManager.blockInput();
     },
 
@@ -143,7 +143,7 @@ cc.Class({
         if (netNotify.userID !== GLB.userInfo.id) {
             this.isRivalLeave = true;
         }
-        clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify,netNotify);
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify, netNotify);
         this.gameOver();
     },
 
@@ -431,7 +431,7 @@ cc.Class({
                 clientEvent.dispatch(clientEvent.eventType.score);
             }
         }
-        if (Game.PlayerManager) {
+        if (Game.PlayerManager && Game.PlayerManager.self && Game.PlayerManager.rival) {
             if (Math.abs(Game.PlayerManager.self.targetPosX - Game.PlayerManager.rival.targetPosX) < GLB.playerMinDistance) {
                 if (Game.PlayerManager.self.targetPosX < Game.PlayerManager.rival.targetPosX) {
                     Game.PlayerManager.self.targetPosX -= GLB.bounceDistance;
