@@ -1,67 +1,67 @@
-2018-08-21T10:19:12.194Z - normal: Load ~/.CocosCreator/settings.json
-2018-08-21T10:19:12.199Z - normal: checking language setting...
-2018-08-21T10:19:12.200Z - normal: Language: zh
-2018-08-21T10:19:13.036Z - success: protocol editor-framework registered
-2018-08-21T10:19:13.037Z - success: protocol app registered
-2018-08-21T10:19:13.037Z - success: protocol theme registered
-2018-08-21T10:19:13.037Z - success: protocol packages registered
-2018-08-21T10:19:13.037Z - success: protocol unpack registerred
-2018-08-21T10:19:13.037Z - success: protocol disable-commonjs registerred
-2018-08-21T10:19:13.226Z - normal: connected!
-2018-08-21T10:19:13.236Z - normal: Check project /Users/mac/MatchVsGithub/BasketBall/BasketBall
-2018-08-21T10:19:13.238Z - normal: Initializing Cocos2d
-2018-08-21T10:19:13.446Z - normal: Initializing Asset Database
-2018-08-21T10:19:13.478Z - success: protocol uuid registerred
-2018-08-21T10:19:13.478Z - success: protocol db registerred
-2018-08-21T10:19:13.479Z - success: protocol thumbnail registerred
-2018-08-21T10:19:13.479Z - normal: Loading editor/builtin packages
-2018-08-21T10:19:13.504Z - success: anysdk loaded
-2018-08-21T10:19:13.618Z - success: assets loaded
-2018-08-21T10:19:13.621Z - success: builder loaded
-2018-08-21T10:19:13.623Z - success: cocos-analytics loaded
-2018-08-21T10:19:13.628Z - success: console loaded
-2018-08-21T10:19:13.661Z - success: fb-instant-games loaded
-2018-08-21T10:19:13.665Z - success: hierarchy loaded
-2018-08-21T10:19:13.669Z - success: inspector loaded
-2018-08-21T10:19:13.671Z - success: keystore loaded
-2018-08-21T10:19:13.675Z - success: node-library loaded
-2018-08-21T10:19:13.677Z - success: package-asset loaded
-2018-08-21T10:19:13.679Z - success: preferences loaded
-2018-08-21T10:19:13.683Z - success: project-exporter loaded
-2018-08-21T10:19:13.700Z - success: project-importer loaded
-2018-08-21T10:19:13.703Z - success: project-settings loaded
-2018-08-21T10:19:13.707Z - success: ui-kit loaded
-2018-08-21T10:19:13.712Z - success: ui-grid loaded
-2018-08-21T10:19:13.716Z - success: scene loaded
-2018-08-21T10:19:13.717Z - success: sprite-editor loaded
-2018-08-21T10:19:13.721Z - success: store loaded
-2018-08-21T10:19:13.727Z - success: timeline loaded
-2018-08-21T10:19:13.728Z - normal: Loading builtin packages
-2018-08-21T10:19:13.732Z - success: asset-db-debugger loaded
-2018-08-21T10:19:13.733Z - success: color-picker loaded
-2018-08-21T10:19:13.736Z - success: package-manager loaded
-2018-08-21T10:19:13.738Z - success: qqplay-adapter loaded
-2018-08-21T10:19:13.745Z - success: sdkbox loaded
-2018-08-21T10:19:13.750Z - success: tester loaded
-2018-08-21T10:19:13.753Z - success: ui-kit-preview-extra loaded
-2018-08-21T10:19:13.756Z - success: ui-kit-preview loaded
-2018-08-21T10:19:13.759Z - success: ui-tree loaded
-2018-08-21T10:19:13.761Z - success: weapp-adapter loaded
-2018-08-21T10:19:14.764Z - normal: Initializing project /Users/mac/MatchVsGithub/BasketBall/BasketBall
-2018-08-21T10:19:14.767Z - normal: Loading packages
-2018-08-21T10:19:14.780Z - success: plugin-matchvs loaded
-2018-08-21T10:19:14.780Z - normal: Watching packages
-2018-08-21T10:19:14.902Z - normal: Run Application
-2018-08-21T10:19:16.018Z - success: preview server running at http://localhost:7459
-2018-08-21T10:19:23.112Z - normal: 1.9.3
-2018-08-21T10:19:24.803Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+2018-09-04T03:22:19.187Z - normal: Load ~/.CocosCreator/settings.json
+2018-09-04T03:22:19.192Z - normal: checking language setting...
+2018-09-04T03:22:19.193Z - normal: Language: zh
+2018-09-04T03:22:20.185Z - success: protocol editor-framework registered
+2018-09-04T03:22:20.185Z - success: protocol app registered
+2018-09-04T03:22:20.186Z - success: protocol theme registered
+2018-09-04T03:22:20.186Z - success: protocol packages registered
+2018-09-04T03:22:20.187Z - success: protocol unpack registerred
+2018-09-04T03:22:20.187Z - success: protocol disable-commonjs registerred
+2018-09-04T03:22:20.430Z - normal: connected!
+2018-09-04T03:22:20.449Z - normal: Check project /Users/mac/MatchVsGithub/BasketBall/BasketBall
+2018-09-04T03:22:20.452Z - normal: Initializing Cocos2d
+2018-09-04T03:22:20.733Z - normal: Initializing Asset Database
+2018-09-04T03:22:20.778Z - success: protocol uuid registerred
+2018-09-04T03:22:20.778Z - success: protocol db registerred
+2018-09-04T03:22:20.778Z - success: protocol thumbnail registerred
+2018-09-04T03:22:20.778Z - normal: Loading editor/builtin packages
+2018-09-04T03:22:20.809Z - success: anysdk loaded
+2018-09-04T03:22:20.956Z - success: assets loaded
+2018-09-04T03:22:20.960Z - success: builder loaded
+2018-09-04T03:22:20.962Z - success: cocos-analytics loaded
+2018-09-04T03:22:20.966Z - success: console loaded
+2018-09-04T03:22:21.001Z - success: fb-instant-games loaded
+2018-09-04T03:22:21.006Z - success: hierarchy loaded
+2018-09-04T03:22:21.010Z - success: inspector loaded
+2018-09-04T03:22:21.012Z - success: keystore loaded
+2018-09-04T03:22:21.016Z - success: node-library loaded
+2018-09-04T03:22:21.018Z - success: package-asset loaded
+2018-09-04T03:22:21.020Z - success: preferences loaded
+2018-09-04T03:22:21.025Z - success: project-exporter loaded
+2018-09-04T03:22:21.041Z - success: project-importer loaded
+2018-09-04T03:22:21.044Z - success: project-settings loaded
+2018-09-04T03:22:21.050Z - success: ui-kit loaded
+2018-09-04T03:22:21.055Z - success: ui-grid loaded
+2018-09-04T03:22:21.059Z - success: scene loaded
+2018-09-04T03:22:21.061Z - success: sprite-editor loaded
+2018-09-04T03:22:21.065Z - success: store loaded
+2018-09-04T03:22:21.071Z - success: timeline loaded
+2018-09-04T03:22:21.071Z - normal: Loading builtin packages
+2018-09-04T03:22:21.075Z - success: asset-db-debugger loaded
+2018-09-04T03:22:21.076Z - success: color-picker loaded
+2018-09-04T03:22:21.080Z - success: package-manager loaded
+2018-09-04T03:22:21.082Z - success: qqplay-adapter loaded
+2018-09-04T03:22:21.149Z - success: sdkbox loaded
+2018-09-04T03:22:21.156Z - normal: last time update is in one day
+2018-09-04T03:22:21.156Z - success: tester loaded
+2018-09-04T03:22:21.161Z - success: ui-kit-preview-extra loaded
+2018-09-04T03:22:21.165Z - success: ui-kit-preview loaded
+2018-09-04T03:22:21.169Z - success: ui-tree loaded
+2018-09-04T03:22:21.171Z - success: weapp-adapter loaded
+2018-09-04T03:22:22.172Z - normal: Initializing project /Users/mac/MatchVsGithub/BasketBall/BasketBall
+2018-09-04T03:22:22.175Z - normal: Loading packages
+2018-09-04T03:22:22.188Z - success: plugin-matchvs loaded
+2018-09-04T03:22:22.188Z - normal: Watching packages
+2018-09-04T03:22:22.318Z - normal: Run Application
+2018-09-04T03:22:23.306Z - success: preview server running at http://localhost:7461
+2018-09-04T03:22:30.961Z - normal: 1.9.3
+2018-09-04T03:22:32.829Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
 
-2018-08-21T10:20:50.892Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+2018-09-04T03:23:13.582Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
 
-2018-08-21T10:35:06.199Z - info: shutdown preview server
