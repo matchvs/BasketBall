@@ -65,3 +65,13 @@ Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
 
+2018-09-04T03:38:16.071Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
+2018-09-04T03:56:01.211Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "94355270-f4ea-45cb-8a72-e83064b22a37"
+
