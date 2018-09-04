@@ -81,6 +81,7 @@ cc.Class({
         this.selfScore = 0;
         this.isRivalLeave = false;
         this.gameTime = GLB.gameTime;
+        clearInterval(Game.GameManager.timeId);
         cc.director.loadScene('game', function() {
             uiFunc.openUI("uiGamePanel", function() {
                 this.sendReadyMsg();
