@@ -17,6 +17,7 @@ cc.Class({
     onBeginContact: function(contact, selfCollider, otherCollider) {
         if (otherCollider.node.group === 'basket') {
             var player = otherCollider.node.parent.getComponent('player');
+            cc.log("goal");
             player.hitAnimation.play();
             this.sendGoalMsg(player.playerId);
             this.destroyPumpkin(false);
@@ -36,7 +37,7 @@ cc.Class({
     },
 
     sendGoalMsg(playerId) {
-        if (Game.GameManager.gameState === GameState.Play && GLB.isRoomOwner) {
+        if (GLB.isRoomOwner) {
             mvs.engine.sendFrameEvent(JSON.stringify({
                 action: GLB.GOAL_EVENT,
                 playerId: playerId
