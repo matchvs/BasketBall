@@ -5,10 +5,10 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 37,
-      "y": 23,
-      "width": 1879,
-      "height": 977,
+      "x": 242,
+      "y": 30,
+      "width": 1674,
+      "height": 970,
       "layout": {
         "children": [
           {
@@ -18,23 +18,23 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 391,
+                "height": 388,
                 "type": "panel",
-                "width": 632
+                "width": 563
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 491.984375,
+                "height": 488,
                 "type": "panel",
-                "width": 632
+                "width": 563
               }
             ],
-            "height": 886,
+            "height": 879,
             "type": "dock-v",
-            "width": 632
+            "width": 563
           },
           {
             "children": [
@@ -45,23 +45,23 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 617,
+                    "height": 610,
                     "type": "panel",
-                    "width": 531
+                    "width": 450
                   },
                   {
                     "active": 0,
                     "children": [
                       "node-library"
                     ],
-                    "height": 617,
+                    "height": 610,
                     "type": "panel",
                     "width": 204
                   }
                 ],
-                "height": 617,
+                "height": 610,
                 "type": "dock-h",
-                "width": 738
+                "width": 657
               },
               {
                 "active": 0,
@@ -71,12 +71,12 @@
                 ],
                 "height": 266,
                 "type": "panel",
-                "width": 738
+                "width": 657
               }
             ],
-            "height": 886,
+            "height": 879,
             "type": "dock-v",
-            "width": 738
+            "width": 657
           },
           {
             "active": 1,
@@ -84,9 +84,9 @@
               "inspector",
               "builder"
             ],
-            "height": 886,
+            "height": 879,
             "type": "panel",
-            "width": 497
+            "width": 442
           }
         ],
         "type": "dock-h"
@@ -101,8 +101,7 @@
         "assets",
         "scene"
       ]
-    },
-    "worker": {}
+    }
   },
   "panels": {
     "store": {
