@@ -88,7 +88,7 @@ cc.Class({
 
     update(dt) {
         if (this.targetPosX) {
-            var nextPos = cc.lerp(this.node.x, this.targetPosX, 4 * dt);
+            var nextPos = this.lerp(this.node.x, this.targetPosX, 4 * dt);
             var deltaX = nextPos - this.node.x;
             this.wheel1Node.rotation += 60 * deltaX * dt * Math.sign(this.node.scaleX);
             this.wheel2Node.rotation += 60 * deltaX * dt * Math.sign(this.node.scaleX);
@@ -100,6 +100,9 @@ cc.Class({
 
     },
 
+    lerp(a, b, r) {
+        return a + (b - a) * r;
+    },
 
     onDestroy() {
         clearInterval(this.rotateID);
